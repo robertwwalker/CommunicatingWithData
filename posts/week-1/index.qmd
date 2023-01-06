@@ -26,3 +26,5 @@ A .pdf is available on WISE.
 -   On Git
 
 Jenny Bryan has an excellent, though dated, extended treatment of Git. It was distilled into a shorter article, [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/)
+
+The [longer version is here](https://happygitwithr.com/index.html)
