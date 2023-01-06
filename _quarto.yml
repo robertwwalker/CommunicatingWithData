@@ -16,7 +16,7 @@ website:
         href: https://twitter.com/PieRatio
 format:
   html:
-    theme: cyborg
+    theme: vapor
     css: styles.css
     toc: true
     html-math-method: katex
