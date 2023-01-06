@@ -1,0 +1,28 @@
+---
+title: "Week 1: Overview, Empathy and Persuasion, and a Bit of Git"
+author: "Robert W. Walker"
+date: "2023-01-05"
+categories: [R]
+image: "image.jpg"
+---
+
+Meeting Date: January 9, 2023
+
+Following the presentation of an overview of the general plan for the course and our establishment of familiarity with one another, I will focus on three major topics for today, one leading into our next meeting in two weeks time (January 23, 2023).
+
+1. An Overview
+2. Introductions, skills, and background
+3. On Empathy and Argumentation
+4. Git and version control
+
+Readings:
+
+-   An approach to argumentation
+
+`Kneupper, C. W. (1978). Teaching Argument: An Introduction to the Toulmin Model. College Composition and Communication, 29(3), 237–241. https://doi.org/10.2307/356935`
+
+A .pdf is available on WISE.
+
+-   On Git
+
+Jenny Bryan has an excellent, though dated, extended treatment of Git. It was distilled into a shorter article, [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/)

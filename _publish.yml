@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 1f26d83a-2531-45a2-bb93-6deb4ac5fa3b
+      url: 'https://quartopub.com/sites/rww/communicating-with-data'

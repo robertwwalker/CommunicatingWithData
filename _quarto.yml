@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "Communicating With Data"
+  twitter-card: 
+    creator: "@PieRatio"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/robertwwalker/CommunicatingWithData
+      - icon: twitter
+        href: https://twitter.com/PieRatio
+format:
+  html:
+    theme: cyborg
+    css: styles.css
+    toc: true
+    html-math-method: katex
+    embed-resources: true

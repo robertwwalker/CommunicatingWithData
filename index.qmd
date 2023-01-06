@@ -1,0 +1,15 @@
+---
+title: "Communicating With Data"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+Welcome to the web presence for Communicating with Data.
+
