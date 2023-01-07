@@ -3979,6 +3979,7 @@ vertical-align: -.125em;
    
   <ul>
   <li><a href="#key-tips" id="toc-key-tips" class="nav-link active" data-scroll-target="#key-tips">Key Tips</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   </ul>
 </nav>
     </div>
@@ -4045,6 +4046,38 @@ vertical-align: -.125em;
 <ul>
 <li>Primary data security through adding <code>data/</code> to .gitignore.</li>
 </ul>
+</section>
+<section id="homework" class="level1">
+<h1>Homework</h1>
+<p>The first assignment will come in groups of 2. Here is what I want you to do.</p>
+<ul>
+<li><p>First task? Find a partner to work on this with. Preferably, work with someone that you have not grouped with before; may as well expand your horizons.</p></li>
+<li><p>Second task, each of you needs an individual github presence, if you do not already have one.</p></li>
+<li><p>Third task, one or the other – the owner – of you needs to create a repository, you can call it what you want. The reason for groups is collaboration here.</p></li>
+<li><p>Fourth task, if you created the repository, add your partner as a collaborator.</p></li>
+<li><p>Fifth task, if you created the repository, create an RMarkdown or Quarto default file and commit it to the repository.</p></li>
+<li><p>Sixth task, for the collaborator, obtain a local version of the repository.</p></li>
+<li><p>Seventh task, edit the markdown or quarto file and add the following code chunk to the quarto or RMarkdown file:</p></li>
+</ul>
+<pre><code>library(tidyverse)
+mtcars %&gt;% summary</code></pre>
+<p>and knit the file to html</p>
+<ul>
+<li><p>Eight task, the collaborator must (strong preference for staging here) commit and push their edits to the shared repository.</p></li>
+<li><p>Ninth, the owner should integrate the changes their collaborator has made to the local repository via pull.</p></li>
+<li><p>Tenth, the owner should add</p></li>
+</ul>
+<pre><code>mtcars %&gt;% 
+   ggplot() + 
+   aes(x=cyl) + 
+   geom_bar() + 
+   theme_minimal()</code></pre>
+<p>to the quarto/RMarkdown file, knit to html, and commit and push their changes to the github repository.</p>
+<ul>
+<li><p>Eleventh, the collaborate should integrate the changes to their local repository. Once this is complete, compress the directory that houses the repository, copy it to the local repository’s directory, and commit and push the changes.</p></li>
+<li><p>Twelfth, the owner should integrate the changes so that the repository contains three files, an RMarkdown/Quarto source document, an html document, and a .zip file.</p></li>
+</ul>
+<p><strong>Deliverable: an email, identifying the members of the group and the URL of the repository. Because of commit histories, all the work, assuming it is staged, is contained in the repository for verification.</strong></p>
 
 
 </section>

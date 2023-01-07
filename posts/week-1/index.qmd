@@ -36,3 +36,46 @@ The [longer version is here](https://happygitwithr.com/index.html)
 The `usethis` package and `usethis::git_vaccinate()`
 
 - Primary data security through adding `data/` to .gitignore.
+
+# Homework
+
+The first assignment will come in groups of 2.  Here is what I want you to do.  
+
+- First task?  Find a partner to work on this with.  Preferably, work with someone that you have not grouped with before; may as well expand your horizons. 
+
+- Second task, each of you needs an individual github presence, if you do not already have one.
+
+- Third task, one or the other -- the owner -- of you needs to create a repository, you can call it what you want.  The reason for groups is collaboration here.
+
+- Fourth task, if you created the repository, add your partner as a collaborator.
+
+- Fifth task, if you created the repository, create an RMarkdown or Quarto default file and commit it to the repository. 
+
+- Sixth task, for the collaborator, obtain a local version of the repository.
+
+- Seventh task, edit the markdown or quarto file and add the following code chunk to the quarto or RMarkdown file:
+```
+library(tidyverse)
+mtcars %>% summary
+```
+and knit the file to html
+
+- Eight task, the collaborator must (strong preference for staging here) commit and push their edits to the shared repository.
+
+- Ninth, the owner should integrate the changes their collaborator has made to the local repository via pull.
+
+- Tenth, the owner should add 
+```
+mtcars %>% 
+   ggplot() + 
+   aes(x=cyl) + 
+   geom_bar() + 
+   theme_minimal()
+```
+to the quarto/RMarkdown file, knit to html, and commit and push their changes to the github repository.
+
+- Eleventh, the collaborate should integrate the changes to their local repository.  Once this is complete, compress the directory that houses the repository, copy it to the local repository's directory, and commit and push the changes.
+
+- Twelfth, the owner should integrate the changes so that the repository contains three files, an RMarkdown/Quarto source document, an html document, and a .zip file.
+
+**Deliverable: an email, identifying the members of the group and the URL of the repository.  Because of commit histories, all the work, assuming it is staged, is contained in the repository for verification.**
