@@ -10,10 +10,13 @@ Meeting Date: January 9, 2023
 
 Following the presentation of an overview of the general plan for the course and our establishment of familiarity with one another, I will focus on three major topics for today, one leading into our next meeting in two weeks time (January 23, 2023).
 
+# Class Plan [Not Necessarily Chronological]
+
 1. An Overview
 2. Introductions, skills, and background
 3. On Empathy and Argumentation
 4. Git and version control
+5. Supplemental Topics
 
 Readings:
 
@@ -35,7 +38,13 @@ The [longer version is here](https://happygitwithr.com/index.html)
 
 The `usethis` package and `usethis::git_vaccinate()`
 
-- Primary data security through adding `data/` to .gitignore.
+- Primary data security through adding `data/` to `.gitignore`.
+
+## Two supplemental topics:
+
+1. [How to Read R Help](https://rfortherestofus.com/2022/10/help-pages/)
+
+2. Useful places for assistance: Stack Overflow, RStudio Forums
 
 # Homework
 
