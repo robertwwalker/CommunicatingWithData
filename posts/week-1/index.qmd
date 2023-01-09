@@ -32,7 +32,6 @@ A .pdf is available on WISE.
 
 [A short presentation](https://prezi.com/view/JnTPSpWHRLiwOmzKARg8/)
 
-<iframe src="https://prezi.com/p/embed/6KEZXuFta77lruMUkSV6/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="315" width="560"></iframe>
 
 -   On Git
 
