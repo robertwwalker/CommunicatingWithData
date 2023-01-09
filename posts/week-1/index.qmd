@@ -30,11 +30,24 @@ Readings:
 
 A .pdf is available on WISE.
 
+[A short presentation](https://prezi.com/view/JnTPSpWHRLiwOmzKARg8/)
+
+<iframe src="https://prezi.com/p/embed/6KEZXuFta77lruMUkSV6/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="315" width="560"></iframe>
+
 -   On Git
 
 Jenny Bryan has an excellent, though dated, extended treatment of Git. It was distilled into a shorter article, [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/)
 
 The [longer version is here](https://happygitwithr.com/index.html)
+
+![Version Control](img/Screenshot 2023-01-09 at 2.31.53 PM.png)
+
+![What is it?](img/Screenshot 2023-01-09 at 2.32.57 PM.png)
+That's for software developers.  Why is it an ideal tool for data science and data projects?
+
+One of the most important ideas when collaborating: [merge versus rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+
+[It has a golden rule.](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing)
 
 ## Key Tips
 
