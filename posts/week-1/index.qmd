@@ -50,6 +50,10 @@ The `usethis` package and `usethis::git_vaccinate()`
 
 ![winston-chang](img/shinylive.png)
 
+# A Little Quiz
+
+![What's Wrong?](img/KCarr.jpeg)
+
 # Homework
 
 The first assignment will come in groups of 2.  Here is what I want you to do.  
