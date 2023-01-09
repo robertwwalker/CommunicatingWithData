@@ -3,8 +3,12 @@ title: "Week 1: Overview, Empathy and Persuasion, and a Bit of Git"
 author: "Robert W. Walker"
 date: "2023-01-05"
 categories: [R]
-image: "image.jpg"
+image: "words_that_end_in_gry.png"
 ---
+
+Attribution for cover graphic: [XKCD](https://xkcd.com/169/)
+
+![Full Graphic](words_that_end_in_gry.png)
 
 Meeting Date: January 9, 2023
 
