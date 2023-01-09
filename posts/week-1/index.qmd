@@ -46,6 +46,10 @@ The `usethis` package and `usethis::git_vaccinate()`
 
 2. Useful places for assistance: Stack Overflow, RStudio Forums
 
+## One Key Thing That's on My Mind
+
+![winston-chang](img/shinylive.png)
+
 # Homework
 
 The first assignment will come in groups of 2.  Here is what I want you to do.  
