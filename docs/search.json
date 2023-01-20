@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "posts/week-2/index.html",
+    "href": "posts/week-2/index.html",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "",
+    "text": "Meeting Date: January 23, 2023"
+  },
+  {
+    "objectID": "posts/week-2/index.html#key-tips",
+    "href": "posts/week-2/index.html#key-tips",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "Key Tips",
+    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
+  },
+  {
+    "objectID": "posts/week-2/index.html#two-supplemental-topics",
+    "href": "posts/week-2/index.html#two-supplemental-topics",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "Two supplemental topics:",
+    "text": "Two supplemental topics:\n\nHow to Read R Help"
+  },
+  {
     "objectID": "posts/week-1/index.html",
     "href": "posts/week-1/index.html",
     "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
@@ -32,7 +53,7 @@
     "href": "index.html",
     "title": "Communicating With Data",
     "section": "",
-    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#instructor",

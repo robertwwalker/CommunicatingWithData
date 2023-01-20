@@ -1,0 +1,70 @@
+---
+title: "Week 2: Building a Portfolio, Part I"
+author: "Robert W. Walker"
+date: "2023-01-23"
+categories: [R]
+image: "image.jpeg"
+---
+
+Meeting Date: January 23, 2023
+
+# Class Plan [Not Necessarily Chronological]
+
+1. On Git in a Bit More Detail
+2. AMA
+3. RMarkdown Driven Development
+4. Building a Portfolio with Quarto, Distil, or Blogdown
+
+Readings:
+
+-   RMarkdown Driven Development
+
+Though written about RMarkdown, the same general principles apply to quarto.  Emily Riederer has an excellent blog post describing RDD [RMarkdown Driven Development](https://emilyriederer.netlify.app/post/rmarkdown-driven-development/).
+
+-   On Git
+
+Jenny Bryan has an excellent, though dated, extended treatment of Git. It was distilled into a shorter article, [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/)
+
+The [longer version is here](https://happygitwithr.com/index.html)
+
+![Version Control](img/Screenshot 2023-01-09 at 2.31.53 PM.png)
+
+![What is it?](img/Screenshot 2023-01-09 at 2.32.57 PM.png)
+That's for software developers.  Why is it an ideal tool for data science and data projects?
+
+One of the most important ideas when collaborating: [merge versus rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+
+[It has a golden rule.](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing)
+
+## Key Tips
+
+- Thinking through `.gitignore`
+
+The `usethis` package and `usethis::git_vaccinate()`
+
+- Primary data security through adding `data/` to `.gitignore`.
+
+## Two supplemental topics:
+
+1. [How to Read R Help](https://rfortherestofus.com/2022/10/help-pages/)
+
+
+# Homework
+
+The second assignment is individual.  Here is what I want you to do.  
+
+1. Some preparation.
+
+Have a look at a few sites built via each approach.  I have examples, no claim that they are good, in
+
+- `blogdown` using hugo
+   + [my academic website: rww.science](https://rww.science) and 
+   + [my blog](https://rww-science.website)
+
+- `quarto`
+   + [ESSSSDA Panel Data Course](https://essssda22-3k.netlify.app/)
+   + [DADM-FAQ](https://robertwwalker.github.io/DADM-FAQ/)
+
+I do not have examples in `distill`.  I would point you to the RStudio examples.  [RStudio](https://rstudio.github.io/distill/website.html) and [update](https://posit.co/blog/distill/).  Also, [Thomas Mock has a really nice example on the MockUp](https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/).
+
+**Deliverable: an email containing the URL.  You should also post a link to it in the Portfolios thread so that others can have a look at what you have done.  For now just a working template is sufficient though you should at least customize whatever you start with.**
