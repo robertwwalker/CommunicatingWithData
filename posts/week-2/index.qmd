@@ -15,6 +15,9 @@ Meeting Date: January 23, 2023
 3. RMarkdown Driven Development
 4. Building a Portfolio with Quarto, Distil, or Blogdown
 
+Slides:
+[Week 2 Slides](https://robertwwalker.github.io/xaringan/CWD-Week-2/index.html)
+
 Readings:
 
 -   RMarkdown Driven Development
@@ -48,6 +51,7 @@ The `usethis` package and `usethis::git_vaccinate()`
 
 1. [How to Read R Help](https://rfortherestofus.com/2022/10/help-pages/)
 
+2. [RMarkdown Driven Development](https://emilyriederer.netlify.app/post/rmarkdown-driven-development/)
 
 # Homework
 
@@ -57,7 +61,7 @@ The second assignment is individual.  Here is what I want you to do.
 
 Have a look at a few sites built via each approach.  I have examples, no claim that they are good, in
 
-- `blogdown` using hugo
+- `blogdown` using hugo [Allison Presmanes-Hill gave great talk on this to the PDX R-Users group](https://apreshill.github.io/blogdown-workshop/)
    + [my academic website: rww.science](https://rww.science) and 
    + [my blog](https://rww-science.website)
 
