@@ -69,6 +69,6 @@ Have a look at a few sites built via each approach.  I have examples, no claim t
    + [ESSSSDA Panel Data Course](https://essssda22-3k.netlify.app/)
    + [DADM-FAQ](https://robertwwalker.github.io/DADM-FAQ/)
 
-I do not have examples in `distill`.  I would point you to the RStudio examples.  [RStudio](https://rstudio.github.io/distill/website.html) and [update](https://posit.co/blog/distill/).  Also, [Thomas Mock has a really nice example on the MockUp](https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/).
+[I have a template for `distill` that I created in a few minutes.](https://robertwwalker.github.io/Distill/)  The first key thing is to make sure distill is installed with `install.packages("distill")`.  I would point you to the RStudio examples.  [RStudio](https://rstudio.github.io/distill/website.html) and [update](https://posit.co/blog/distill/).  Also, [Thomas Mock has a really nice example on the MockUp](https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/).
 
 **Deliverable: an email containing the URL.  You should also post a link to it in the Portfolios thread so that others can have a look at what you have done.  For now just a working template is sufficient though you should at least customize whatever you start with.**
