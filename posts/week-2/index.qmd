@@ -67,7 +67,7 @@ Have a look at a few sites built via each approach.  I have examples, no claim t
 
 - `quarto`
    + [ESSSSDA Panel Data Course](https://essssda22-3k.netlify.app/) and the [associated github repository](https://github.com/robertwwalker/essssda22-3k/)
-   + [DADM-FAQ](https://robertwwalker.github.io/dadm-faq/) and the [associated github repository](https://github.com/robertwwalker/dadm-faq/)
+   + [DADM-FAQ](https://robertwwalker.github.io/DADM-FAQ/) and the [associated github repository](https://github.com/robertwwalker/DADM-FAQ/)
 
 - `distill` 
    + [I have a template for `distill` that I created in a few minutes.](https://robertwwalker.github.io/Distill/)  
