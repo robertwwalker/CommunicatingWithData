@@ -1,0 +1,46 @@
+---
+title: "Week 3: Building a Portfolio, Part II"
+author: "Robert W. Walker"
+date: "2023-01-30"
+categories: [R]
+image: "image.jpeg"
+---
+
+Meeting Date: January 30, 2023
+
+Last updated: `r Sys.time()` 
+
+Timezone: `r Sys.timezone()`
+
+# Class Plan [Not Necessarily Chronological]
+
+1. AMA
+2. Quarto Things
+3. Essential Differences between Quarto and RMarkdown
+4. Adding to a Portfolio with Quarto, Distil, or Blogdown
+
+Slides:
+[Week 3 Slides](https://robertwwalker.github.io/xaringan/CWD-Week-3/index.html)
+
+Readings:
+
+-   Quarto Documentation [if not already done]
+
+Links I will work from:
+
+[My Blog](https://rww-science.website)
+[My Quarto site on Github pages](https://robertwwalker.github.io/)
+
+# Homework
+
+The third assignment has a group component and an individual component.  
+
+1. You are to expand your portfolio with at least two pieces of analysis.  What analysis?  Bits of data visualization or modelling.  One should be inspired by a tidyTuesday data visualization, with appropriate citation, and must expand, extend, or in some substantive way deviate from the original.  
+
+2. You should also pick a partner and share commentary on improving the aesthetic and the **pitch** of your existing quarto website.  There is a thread on discord called `#awesome-quarto` that contains information extending the quarto documentation that you should have read last time.  I would strongly encourage you to check it out.
+
+There is also manual reading.  The class next time will focus on tables.  Here is the selection from the syllabus.
+
+![Syllabus Module for Week 4](img/Screen Shot 2023-01-30 at 2.15.58 PM.png)
+
+**Deliverable: an email containing the URLs for the two posts and at least one example of constructive commentary on your partner's portfolio including their name.**

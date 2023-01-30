@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quartopub.com/sites/rww/communicating-with-data/posts/week-2/index.html</loc>
-    <lastmod>2023-01-24T10:48:40.802Z</lastmod>
+    <loc>https://50d0753c-fbb0-467e-8809-4d572d81eedb.netlify.app/about.html</loc>
+    <lastmod>2023-01-30T22:17:40.450Z</lastmod>
   </url>
   <url>
-    <loc>https://quartopub.com/sites/rww/communicating-with-data/posts/week-1/index.html</loc>
-    <lastmod>2023-01-24T10:48:42.407Z</lastmod>
+    <loc>https://50d0753c-fbb0-467e-8809-4d572d81eedb.netlify.app/index.html</loc>
+    <lastmod>2023-01-30T22:17:41.560Z</lastmod>
   </url>
   <url>
-    <loc>https://quartopub.com/sites/rww/communicating-with-data/index.html</loc>
-    <lastmod>2023-01-24T10:48:43.882Z</lastmod>
+    <loc>https://50d0753c-fbb0-467e-8809-4d572d81eedb.netlify.app/posts/week-1/index.html</loc>
+    <lastmod>2023-01-30T22:17:42.710Z</lastmod>
   </url>
   <url>
-    <loc>https://quartopub.com/sites/rww/communicating-with-data/about.html</loc>
-    <lastmod>2023-01-24T10:48:45.308Z</lastmod>
+    <loc>https://50d0753c-fbb0-467e-8809-4d572d81eedb.netlify.app/posts/week-2/index.html</loc>
+    <lastmod>2023-01-30T22:17:43.800Z</lastmod>
+  </url>
+  <url>
+    <loc>https://50d0753c-fbb0-467e-8809-4d572d81eedb.netlify.app/posts/week-3/index.html</loc>
+    <lastmod>2023-01-30T22:17:45.390Z</lastmod>
   </url>
 </urlset>
