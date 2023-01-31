@@ -20,7 +20,7 @@ Timezone: `r Sys.timezone()`
 4. Adding to a Portfolio with Quarto, Distil, or Blogdown
 
 Slides:
-[Week 3 Slides](https://robertwwalker.github.io/CWD-Week-3/index.html)
+[Week 3 Slides](https://robertwwalker.github.io/cwd-week-3/index.html)
 
 Readings:
 
