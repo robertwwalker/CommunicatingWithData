@@ -1,27 +1,28 @@
 ---
-title: "Week 3: Building a Portfolio, Part II"
+title: "Week 4: Beautiful Tables"
 author: "Robert W. Walker"
-date: "2023-01-30"
+date: "2023-02-06"
 categories: [R]
 image: "image.jpeg"
 ---
 
-Meeting Date: January 30, 2023
+Meeting Date: February 6, 2023
 
 Last updated: `r Sys.time()` 
 
 Timezone: `r Sys.timezone()`
 
+![Image Credit: https://www.finewoodworking.com/project-guides/tables-and-desks/table-design](./image.jpeg)
+
 # Class Plan [Not Necessarily Chronological]
 
-1. AMA
-2. Quarto Things
-3. Essential Differences between Quarto and RMarkdown
-4. Adding to a Portfolio with Quarto, Distil, or Blogdown
+1. A Review of Portfolios
+2. Good Tables?
+3. `flextable`
+4. `gt`
 
 Slides:
-[Week 3 Slides](https://robertwwalker.github.io/CWD-Slides/week-3/index.html)
-
+[Week 4 Slides](https://robertwwalker.github.io/CWD-Slides/week-4/index.html)
 
 Readings:
 
