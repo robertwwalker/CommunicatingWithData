@@ -83,7 +83,7 @@ obj <- summarizor(Bonds, by = "Risk", overall_label = "Overall")
 obj
 ```
 
-```{r}
+```{r, results='hide'}
 ft <- as_flextable(obj, spread_first_col = TRUE, separate_with = "variable") 
 ft %>% theme_vanilla() %>% save_as_image("img/SumTable.png", webshot = "webshot2")
 ```
