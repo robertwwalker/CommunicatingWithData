@@ -6,7 +6,7 @@ categories: [R]
 image: "image.jpeg"
 ---
 
-```{r}
+```{r setup1, include=FALSE}
 knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 ```
 
