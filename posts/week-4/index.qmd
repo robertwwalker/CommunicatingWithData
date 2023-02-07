@@ -169,7 +169,7 @@ most_expensive("Hats") %>%  tab_header(title = "Most Expensive Items in Animal C
 ## Fossils?
 
 ```{r}
-most_expensive("Fossils", price_category = sell_value, n=70) %>%  tab_header(title = "Most Expensive Items in Animal Crossing By Buy Price") %>%  cols_label(
+most_expensive("Fossils", price_category = sell_value, n=65) %>%  tab_header(title = "Most Expensive Items in Animal Crossing By Buy Price") %>%  cols_label(
     name = "Item",
     sell_value = "Sale Price",
     buy_value = "Buy Price",
