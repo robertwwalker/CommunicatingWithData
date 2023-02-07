@@ -11,7 +11,7 @@ knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 ```
 
 
-Meeting Date: February 6, 2023.  It's Not Christmas!
+Meeting Date: February 6, 2023.
 
 Last updated: `r Sys.time()` 
 
@@ -88,9 +88,96 @@ ft <- as_flextable(obj, spread_first_col = TRUE, separate_with = "variable")
 ft %>% theme_vanilla() %>% save_as_image("img/SumTable.png", webshot = "webshot2")
 ```
 
+
 ![Summarizor table](img/SumTable.png)
 
 ```{r}
 ft
+```
+
+## Addendum: the function
+
+**Borrowed from Ted Laderas.**
+
+```{r}
+library(DT)
+items <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-05/items.csv')
+datatable(head(items))
+```
+
+## A clever function
+
+```{r}
+library(ggimage); library(gt)
+library(tidyverse)
+most_expensive <- function(category_name=NULL, price_category=buy_value, n=10){
+  
+  if(!is.null(category_name)){
+    items <- items %>%
+      filter(category == category_name)
+  }
+  items %>% 
+  top_n(n, {{price_category}}) %>%
+  arrange(desc({{price_category}})) %>%
+  select(name, image=image_url, sell_value, buy_value, category) %>%
+  gt() %>%
+   text_transform(
+    locations = cells_body(vars(image)),
+    fn = function(x) {
+      web_image(
+        url = x,
+        height = 50
+      )
+    }
+  )
+  
+}
+```
+
+## Making a Table
+
+```{r}
+most_expensive() %>%  
+  tab_header(title = "Most Expensive Items in Animal Crossing By Buy Price") %>%  
+  cols_label(
+    name = "Item",
+    sell_value = "Sale Price",
+    buy_value = "Buy Price",
+    category = "Item Type",
+    image = "Picture"
+  ) %>%   tab_spanner(
+    label = "Prices",
+    columns = c(buy_value, sell_value)
+  )
+```
+
+## The Question
+
+```{r}
+most_expensive("Hats") %>%  tab_header(title = "Most Expensive Items in Animal Crossing By Buy Price") %>%  cols_label(
+    name = "Item",
+    sell_value = "Sale Price",
+    buy_value = "Buy Price",
+    category = "Item Type",
+    image = "Picture"
+) %>%   tab_spanner(
+    label = "Prices",
+    columns = c(buy_value, sell_value)
+)
+```
+
+## Fossils?
+
+```{r}
+most_expensive("Fossils", price_category = sell_value, n=70) %>%  tab_header(title = "Most Expensive Items in Animal Crossing By Buy Price") %>%  cols_label(
+    name = "Item",
+    sell_value = "Sale Price",
+    buy_value = "Buy Price",
+    category = "Item Type",
+    image = "Picture"
+) %>%   tab_spanner(
+    label = "Prices",
+    columns = c(buy_value, sell_value)
+)
 ```
 
