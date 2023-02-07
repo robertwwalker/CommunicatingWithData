@@ -4,6 +4,7 @@ author: "Robert W. Walker"
 date: "2023-02-06"
 categories: [R]
 image: "image.jpeg"
+highlight-style: ayu
 ---
 
 ```{r setup1, include=FALSE}
@@ -107,16 +108,55 @@ datatable(head(items))
 
 ## A clever function
 
+Ted Laderas [`@laderast` on Twitter] wrote a function to present the ten most expensive items in a `category` for the items dataset.  You can find his [repo for this here.](https://github.com/laderast/tidy_tuesday/tree/master/2020-05-05_animal-crossing).  I will change rows 3 and 9.  Line 3 adds the new argument to the function and line 9 carries the variable defined in the argument into `top_n`.
+
+:::: {.columns}
+::: {.column width="47.5%"}
+### Ted's Original
+
 ```{r}
+#| code-line-numbers: true
 library(ggimage); library(gt)
 library(tidyverse)
-most_expensive <- function(category_name=NULL, price_category=buy_value, n=10){
-  
+most_expensive <- function(category_name=NULL, price_category=buy_value){
   if(!is.null(category_name)){
     items <- items %>%
       filter(category == category_name)
   }
-  items %>% 
+items %>% 
+  top_n(10, {{price_category}}) %>%
+  arrange(desc({{price_category}})) %>%
+  select(name, sell_value, buy_value, category, image=image_url) %>%
+  gt() %>%
+   text_transform(
+    locations = cells_body(vars(image)),
+    fn = function(x) {
+      web_image(
+        url = x,
+        height = 50
+      )
+    }
+  )
+}
+```
+:::
+
+::: {.column width="5%"}
+
+:::
+::: {.column width="47.5%"}
+### My Modification
+
+```{r}
+#| code-line-numbers: true
+library(ggimage); library(gt)
+library(tidyverse)
+most_expensive <- function(category_name=NULL, price_category=buy_value, n=10){
+  if(!is.null(category_name)){
+    items <- items %>%
+      filter(category == category_name)
+  }
+items %>% 
   top_n(n, {{price_category}}) %>%
   arrange(desc({{price_category}})) %>%
   select(name, image=image_url, sell_value, buy_value, category) %>%
@@ -130,9 +170,12 @@ most_expensive <- function(category_name=NULL, price_category=buy_value, n=10){
       )
     }
   )
-  
 }
 ```
+        
+:::
+::::
+
 
 ## Making a Table
 
