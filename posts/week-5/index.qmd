@@ -5,10 +5,10 @@ date: "2023-02-13"
 categories: [R]
 image: "image.png"
 highlight-style: ayu
+code-fold: true
 ---
 
 ```{r setup1, include=FALSE}
-library(tidyverse)
 knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 ```
 
@@ -47,11 +47,20 @@ Timezone: `r Sys.timezone()`
 
 ## Resources
 
+### Tables
+
 - [gtExtras](https://jthomasmock.github.io/gtExtras/)
 - [the flextable gallery](https://ardata.fr/en/flextable-gallery/)
 - [flexpivot](https://dreamrs.github.io/flexpivot/)
 - [the gt cookbook](https://themockup.blog/static/resources/gt-cookbook.html)
-- 
+
+### Interactive Graphics
+
+- [Javascript for R](https://book.javascript-for-r.com/)
+- [The ggiraph book](https://www.ardata.fr/ggiraph-book/)
+- [Plotly for R](https://plotly.com/r/)
+- [r2d3: R Interface for D3](https://rstudio.github.io/r2d3/)
+- [networkD3](http://christophergandrud.github.io/networkD3/)
 
 # Homework
 
@@ -66,6 +75,7 @@ Timezone: `r Sys.timezone()`
 ## The Data
 
 ```{r}
+library(tidyverse)
 library(jsonlite)
 URL <- paste0("https://cdn.rawgit.com/christophergandrud/networkD3/","master/JSONdata/energy.json")
 Energy <- fromJSON(URL)
@@ -88,11 +98,156 @@ sankeyNetwork(Links = Energy$links,
               fontSize = 12, 
               nodeWidth = 30)
 ```
+# Stocks and Plotly
 
+## The `plotly` package
 
+[`plotly` as a package has far more it can do.](https://plotly.com/r/)
+
+```{r}
+library(plotly); library(magrittr)
+library(tidyquant)
+# Use tidyquant to get the data
+INTC <- tq_get("INTC")
+# Slice off the most recent 90 days
+INTC.tail.90 <- tail(INTC, 90)
+INTC.tail <- INTC.tail.90
+# Create a counter of days
+INTC.tail$ID <- seq.int(nrow(INTC.tail))
+# Round the prices to 2 digits
+INTC.tail %<>% mutate(close = round(close, digits=2))
+```
+
+Now we want a function to create the dataset for each stage of the animation.  There are a few ways to do this but most involve writing a function to create them.  This example function comes from the plotly documents.
+
+```{r}
+# This is in the example for plotly paths
+# First a supporting function: getLevels takes input x
+getLevels <- function (x) {
+  # if x is a factor
+    if (is.factor(x)) 
+  # grab the levels of x
+        levels(x)
+  # if x is not a factor, sort unique values of x
+    else sort(unique(x))
+}
+# Two inputs, the data and the variable to form the splits along the x-axis
+accumulate_by <- function(dat, var) {
+  # This handles linking variables to their environment
+  var <- lazyeval::f_eval(var, dat)
+  # get the levels of the given variable using the function above
+  lvls <- getLevels(var)
+  # use lapply, tidy would use map to iterate over the levels in `lvls` and column bind the data with frame denotes by lvls[[x]]
+  dats <- lapply(seq_along(lvls), function(x) {
+   cbind(dat[var %in% lvls[seq(1, x)], ], frame = lvls[[x]])
+  })
+  # bind the rows together
+  dplyr::bind_rows(dats)
+}
+# Invoke the function on our ID variable
+INTC.tail <- INTC.tail %>% accumulate_by(~ID)
+# Create a figure of ID and close for each frame value using plotly's version of a line plot: type:scatter-mode:lines
+# The rest is standard plotly
+fig <- INTC.tail %>% plot_ly(
+  x = ~ID, 
+  y = ~close, 
+  frame = ~frame,
+  type = 'scatter', 
+  mode = 'lines', 
+  # This is short for fill to zero on the y-axis
+  fill = 'tozeroy',
+  fillcolor='rgba(73, 26, 201, 0.5)',
+  line = list(color = 'rgb(73, 26, 201)'),
+  text = ~paste("Date: ", date, "<br>Close: $", close), 
+  hoverinfo = 'text'
+)
+# Add the layout; one title and two axes
+# I also mess with the margin to keep the figure from being cut off.
+fig <- fig %>% layout(
+  title ="Intel Stock Closing Price: Last 90 Days",
+  yaxis = list(
+    title = "Close", 
+    range = c(0,50), 
+    zeroline = F,
+    tickprefix = "$"
+  ),
+  xaxis = list(
+    title = "Day", 
+    range = c(0,90), 
+    zeroline = F, 
+    showgrid = F
+  ),
+  margin = list(t=120) # adjust the plot margin to avoid cutting off letters
+) 
+# Animate the figure with 100 frames
+fig <- fig %>% animation_opts(
+  frame = 100, # transition time 100 ms
+  transition = 0, # duration of smooth transition in ms
+  redraw = FALSE # redraw the plot at each transition?
+)
+fig <- fig %>% animation_slider(
+  currentvalue = list(
+    prefix = "Day "
+  )
+)
+fig
+```
+
+### An easier plotly for these data because they are OHLC
+
+[A link to a stand-alone document with all the data.](https://robertwwalker.github.io/dadm-docs/plotly-OHLC/)  
+
+```{r}
+# basic example of ohlc charts
+# custom colors
+i <- list(line = list(color = '#000000')) # black
+d <- list(line = list(color = '#FF0000')) # red
+# Create the figure
+fig.2 <- INTC.tail.90 %>%
+  plot_ly(x = ~date, type="ohlc",
+          open = ~open, close = ~close,
+          high = ~high, low = ~low,
+          increasing = i, decreasing = d)
+fig.2
+```
+
+# Human Rights Data from Fariss
+
+I will load the necessary libraries for this before loading the data.
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(magrittr)
+library(DT)
+load(url("https://github.com/robertwwalker/robertwwalker.github.io/raw/main/posts/HumanRightsTable/data/HumanRightsProtectionScores_v4.01.RData"))
+HR.Data <- x
+rm(x)
+HR.Data.Selection <- HR.Data %>% 
+  mutate(country_name = as.factor(country_name)) %>%
+  select(country_name, theta_mean, theta_sd) %>%
+  group_by(country_name) %>%
+  summarise(Mean = mean(theta_mean),
+            SD = mean(theta_sd)) %>% 
+  mutate(Mean = round(Mean, digits=2),
+         SD = round(SD, digits=2))
+```
+
+To link the data selection and the visualization, I need one line of code necessary to share the data.
+
+```{r}
+# Get bscols onto rows with widths
+# https://stackoverflow.com/questions/72064781/in-package-crosstalk-are-there-have-function-bsrows-and-rowscols-mixed
+library(crosstalk); library(plotly)
+shared <- SharedData$new(HR.Data.Selection)
+bscols(widths = c(12, 12),
+  plot_ly(shared, x = ~Mean, y=~SD, type = "scatter"),
+  datatable(shared)
+)
+```
+
+```
 
 # Pizza [ggiraph]
-
 
 ```{r, warning=FALSE, message=FALSE}
 library(tidyverse)
