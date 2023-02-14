@@ -1,10 +1,80 @@
 [
   {
+    "objectID": "about.html#instructor",
+    "href": "about.html#instructor",
+    "title": "About",
+    "section": "Instructor",
+    "text": "Instructor\nRobert W. Walker is Associate Professor of Quantitative Methods in the Atkinson Graduate School of Management at Willamette University. He earned a Ph. D. in political science from the University of Rochester in 2005 and has previously held teaching positions at Dartmouth College, Rice University, Texas A&M University, and Washington University in Saint Louis. His current research develops and applies semi-Markov processes to time-series, cross-section data in international relations and international/comparative political economy. He teaches courses in quantitative methods/applied statistics and microeconomic strategy and previously taught four iterations in the U. S. National Science Foundation funded Empirical Implications of Theoretical Models sequence at Washington University in Saint Louis. His work with Curt Signorino and Muhammet Bas was awarded the Miller Prize for the best article in Political Analysis in 2009."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Communicating With Data",
+    "section": "",
+    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/week-1/index.html",
+    "href": "posts/week-1/index.html",
+    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
+    "section": "",
+    "text": "Updated: January 20, 2023 with a bit on shiny Meeting Date: January 9, 2023\nAttribution for cover graphic: XKCD\nFollowing the presentation of an overview of the general plan for the course and our establishment of familiarity with one another, I will focus on three major topics for today, one leading into our next meeting in two weeks time (January 23, 2023)."
+  },
+  {
+    "objectID": "posts/week-1/index.html#key-tips",
+    "href": "posts/week-1/index.html#key-tips",
+    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
+    "section": "Key Tips",
+    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
+  },
+  {
+    "objectID": "posts/week-1/index.html#two-supplemental-topics",
+    "href": "posts/week-1/index.html#two-supplemental-topics",
+    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
+    "section": "Two supplemental topics:",
+    "text": "Two supplemental topics:\n\nHow to Read R Help\nUseful places for assistance: Stack Overflow, RStudio Forums"
+  },
+  {
+    "objectID": "posts/week-1/index.html#one-key-thing-thats-on-my-mind",
+    "href": "posts/week-1/index.html#one-key-thing-thats-on-my-mind",
+    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
+    "section": "One Key Thing That’s on My Mind",
+    "text": "One Key Thing That’s on My Mind\n\n\n\nwinston-chang\n\n\nThis is a very nice comparison of the two methods. The shinylive via Github pages really is a neat feature."
+  },
+  {
+    "objectID": "posts/week-2/index.html",
+    "href": "posts/week-2/index.html",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "",
+    "text": "Meeting Date: January 23, 2023"
+  },
+  {
+    "objectID": "posts/week-2/index.html#key-tips",
+    "href": "posts/week-2/index.html#key-tips",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "Key Tips",
+    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
+  },
+  {
+    "objectID": "posts/week-2/index.html#two-supplemental-topics",
+    "href": "posts/week-2/index.html#two-supplemental-topics",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "Two supplemental topics:",
+    "text": "Two supplemental topics:\n\nHow to Read R Help\nRMarkdown Driven Development"
+  },
+  {
+    "objectID": "posts/week-3/index.html",
+    "href": "posts/week-3/index.html",
+    "title": "Week 3: Building a Portfolio, Part II",
+    "section": "",
+    "text": "Meeting Date: January 30, 2023\nLast updated: 2023-02-13 16:01:56\nTimezone: America/Los_Angeles\n\nClass Plan [Not Necessarily Chronological]\n\nAMA\nQuarto Things\nEssential Differences between Quarto and RMarkdown\nAdding to a Portfolio with Quarto, Distil, or Blogdown\n\nSlides: Week 3 Slides\nReadings:\n\nQuarto Documentation [if not already done]\n\nLinks I will work from:\nMy Blog My Quarto site on Github pages\n\n\nHomework\nThe third assignment has a group component and an individual component.\n\nYou are to expand your portfolio with at least two pieces of analysis. What analysis? Bits of data visualization or modelling. One should be inspired by a tidyTuesday data visualization, with appropriate citation, and must expand, extend, or in some substantive way deviate from the original.\nYou should also pick a partner and share commentary on improving the aesthetic and the pitch of your existing quarto website. There is a thread on discord called #awesome-quarto that contains information extending the quarto documentation that you should have read last time. I would strongly encourage you to check it out.\n\nThere is also manual reading. The class next time will focus on tables. Here is the selection from the syllabus.\n\n\n\nSyllabus Module for Week 4\n\n\nDeliverable: an email containing the URLs for the two posts and at least one example of constructive commentary on your partner’s portfolio including their name."
+  },
+  {
     "objectID": "posts/week-4/index.html",
     "href": "posts/week-4/index.html",
     "title": "Week 4: Beautiful Tables",
     "section": "",
-    "text": "Meeting Date: February 6, 2023.\nLast updated: 2023-02-07 10:42:45\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 6, 2023.\nLast updated: 2023-02-13 16:01:57\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-4/index.html#resources",
@@ -63,73 +133,66 @@
     "text": "Fossils?\n\nmost_expensive(\"Fossils\", price_category = sell_value, n=65) %>%  tab_header(title = \"Most Expensive Items in Animal Crossing By Buy Price\") %>%  cols_label(\n    name = \"Item\",\n    sell_value = \"Sale Price\",\n    buy_value = \"Buy Price\",\n    category = \"Item Type\",\n    image = \"Picture\"\n) %>%   tab_spanner(\n    label = \"Prices\",\n    columns = c(buy_value, sell_value)\n)\n\n\n\n\n\n  \n    \n      Most Expensive Items in Animal Crossing By Buy Price\n    \n    \n  \n  \n    \n      Item\n      Picture\n      \n        Prices\n      \n      Item Type\n    \n    \n      Buy Price\n      Sale Price\n    \n  \n  \n    Brachio Skull\n\nNA\n6000\nFossils\n    T. Rex Skull\n\nNA\n6000\nFossils\n    Brachio Chest\n\nNA\n5500\nFossils\n    Brachio Tail\n\nNA\n5500\nFossils\n    Dimetrodon Skull\n\nNA\n5500\nFossils\n    Right Megalo Side\n\nNA\n5500\nFossils\n    T. Rex Torso\n\nNA\n5500\nFossils\n    Tricera Skull\n\nNA\n5500\nFossils\n    Brachio Pelvis\n\nNA\n5000\nFossils\n    Dimetrodon Torso\n\nNA\n5000\nFossils\n    Diplo Skull\n\nNA\n5000\nFossils\n    Diplo Tail\n\nNA\n5000\nFossils\n    Left Quetzal Wing\n\nNA\n5000\nFossils\n    Right Quetzal Wing\n\nNA\n5000\nFossils\n    Stego Skull\n\nNA\n5000\nFossils\n    T. Rex Tail\n\nNA\n5000\nFossils\n    Tricera Torso\n\nNA\n5000\nFossils\n    Diplo Neck\n\nNA\n4500\nFossils\n    Diplo Pelvis\n\nNA\n4500\nFossils\n    Left Ptera Wing\n\nNA\n4500\nFossils\n    Megacero Skull\n\nNA\n4500\nFossils\n    Plesio Body\n\nNA\n4500\nFossils\n    Plesio Tail\n\nNA\n4500\nFossils\n    Quetzal Torso\n\nNA\n4500\nFossils\n    Right Ptera Wing\n\nNA\n4500\nFossils\n    Stego Torso\n\nNA\n4500\nFossils\n    Tricera Tail\n\nNA\n4500\nFossils\n    Archelon Skull\n\nNA\n4000\nFossils\n    Diplo Chest\n\nNA\n4000\nFossils\n    Diplo Tail Tip\n\nNA\n4000\nFossils\n    Iguanodon Skull\n\nNA\n4000\nFossils\n    Left Megalo Side\n\nNA\n4000\nFossils\n    Pachy Skull\n\nNA\n4000\nFossils\n    Plesio Skull\n\nNA\n4000\nFossils\n    Ptera Body\n\nNA\n4000\nFossils\n    Spino Skull\n\nNA\n4000\nFossils\n    Stego Tail\n\nNA\n4000\nFossils\n    Ankylo Skull\n\nNA\n3500\nFossils\n    Archelon Tail\n\nNA\n3500\nFossils\n    Dunkleosteus\n\nNA\n3500\nFossils\n    Iguanodon Torso\n\nNA\n3500\nFossils\n    Megacero Torso\n\nNA\n3500\nFossils\n    Pachy Tail\n\nNA\n3500\nFossils\n    Parasaur Skull\n\nNA\n3500\nFossils\n    Ankylo Torso\n\nNA\n3000\nFossils\n    Deinony Torso\n\nNA\n3000\nFossils\n    Iguanodon Tail\n\nNA\n3000\nFossils\n    Mammoth Skull\n\nNA\n3000\nFossils\n    Megacero Tail\n\nNA\n3000\nFossils\n    Parasaur Torso\n\nNA\n3000\nFossils\n    Spino Torso\n\nNA\n3000\nFossils\n    Ankylo Tail\n\nNA\n2500\nFossils\n    Deinony Tail\n\nNA\n2500\nFossils\n    Mammoth Torso\n\nNA\n2500\nFossils\n    Ophthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Torso\n\nNA\n2500\nFossils\n    Parasaur Tail\n\nNA\n2500\nFossils\n    Sabertooth Skull\n\nNA\n2500\nFossils\n    Spino Tail\n\nNA\n2500\nFossils\n    Acanthostega\n\nNA\n2000\nFossils\n    Anomalocaris\n\nNA\n2000\nFossils\n    Eusthenopteron\n\nNA\n2000\nFossils\n    Ophthalmo Torso\n\nNA\n2000\nFossils\n    Sabertooth Tail\n\nNA\n2000\nFossils"
   },
   {
-    "objectID": "posts/week-3/index.html",
-    "href": "posts/week-3/index.html",
-    "title": "Week 3: Building a Portfolio, Part II",
+    "objectID": "posts/week-5/index.html",
+    "href": "posts/week-5/index.html",
+    "title": "Week 5: Interactive Visuals",
     "section": "",
-    "text": "Meeting Date: January 30, 2023\nLast updated: 2023-02-07 10:42:52\nTimezone: America/Los_Angeles\n\nClass Plan [Not Necessarily Chronological]\n\nAMA\nQuarto Things\nEssential Differences between Quarto and RMarkdown\nAdding to a Portfolio with Quarto, Distil, or Blogdown\n\nSlides: Week 3 Slides\nReadings:\n\nQuarto Documentation [if not already done]\n\nLinks I will work from:\nMy Blog My Quarto site on Github pages\n\n\nHomework\nThe third assignment has a group component and an individual component.\n\nYou are to expand your portfolio with at least two pieces of analysis. What analysis? Bits of data visualization or modelling. One should be inspired by a tidyTuesday data visualization, with appropriate citation, and must expand, extend, or in some substantive way deviate from the original.\nYou should also pick a partner and share commentary on improving the aesthetic and the pitch of your existing quarto website. There is a thread on discord called #awesome-quarto that contains information extending the quarto documentation that you should have read last time. I would strongly encourage you to check it out.\n\nThere is also manual reading. The class next time will focus on tables. Here is the selection from the syllabus.\n\n\n\nSyllabus Module for Week 4\n\n\nDeliverable: an email containing the URLs for the two posts and at least one example of constructive commentary on your partner’s portfolio including their name."
+    "text": "Meeting Date: February 13, 2023.\nLast updated: 2023-02-13 16:02:06\nTimezone: America/Los_Angeles"
   },
   {
-    "objectID": "posts/week-2/index.html",
-    "href": "posts/week-2/index.html",
-    "title": "Week 2: Building a Portfolio, Part I",
-    "section": "",
-    "text": "Meeting Date: January 23, 2023"
+    "objectID": "posts/week-5/index.html#resources",
+    "href": "posts/week-5/index.html#resources",
+    "title": "Week 5: Interactive Visuals",
+    "section": "Resources",
+    "text": "Resources\n\ngtExtras\nthe flextable gallery\nflexpivot\nthe gt cookbook"
   },
   {
-    "objectID": "posts/week-2/index.html#key-tips",
-    "href": "posts/week-2/index.html#key-tips",
-    "title": "Week 2: Building a Portfolio, Part I",
-    "section": "Key Tips",
-    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
+    "objectID": "posts/week-5/index.html#the-data",
+    "href": "posts/week-5/index.html#the-data",
+    "title": "Week 5: Interactive Visuals",
+    "section": "The Data",
+    "text": "The Data\n\nlibrary(jsonlite)\nURL <- paste0(\"https://cdn.rawgit.com/christophergandrud/networkD3/\",\"master/JSONdata/energy.json\")\nEnergy <- fromJSON(URL)\nLinks <- Energy$links \npivot_wider(Links, id_cols=source, names_from = target, values_from = value) %>% knitr::kable()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsource\n1\n2\n3\n4\n5\n9\n12\n13\n14\n16\n17\n18\n19\n20\n21\n22\n24\n26\n15\n28\n30\n31\n32\n33\n37\n42\n41\n11\n\n\n\n\n0\n124.729\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n1\nNA\n0.597\n26.862\n280.322\n81.144\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n6\nNA\n35.000\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n7\nNA\nNA\nNA\n35.000\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n8\nNA\nNA\nNA\nNA\nNA\n11.606\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n10\nNA\nNA\nNA\nNA\nNA\n63.965\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n9\nNA\nNA\nNA\n75.571\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n11\nNA\nNA\nNA\nNA\nNA\nNA\n10.639\n22.505\n46.184\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n15\nNA\nNA\n56.691\nNA\nNA\nNA\n342.165\n40.858\n113.726\n104.453\n27.14\n37.797\n4.412\n7.863\n90.008\n93.494\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n23\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n40.719\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n25\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n82.233\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n5\nNA\nNA\n1.401\nNA\nNA\nNA\n48.580\n0.129\nNA\nNA\nNA\nNA\n2.096\nNA\nNA\nNA\nNA\n151.891\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n27\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n7.013\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n17\nNA\nNA\n6.242\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n20.897\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n28\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n20.897\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n29\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n6.995\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n2\nNA\nNA\nNA\nNA\nNA\nNA\n121.066\nNA\nNA\nNA\nNA\n135.835\n3.640\n4.413\nNA\nNA\nNA\nNA\nNA\nNA\n128.69\n14.458\n206.267\n33.218\nNA\nNA\nNA\nNA\n\n\n34\n4.375\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n24\nNA\nNA\nNA\nNA\n122.952\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n35\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n839.978\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n36\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n504.287\nNA\nNA\nNA\n\n\n38\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n107.703\nNA\nNA\nNA\n\n\n37\nNA\n611.990\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n39\n77.810\nNA\nNA\n56.587\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n40\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n70.672\n193.026\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n41\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n59.901\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n42\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n19.263\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n43\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n19.263\n59.901\nNA\n\n\n4\nNA\nNA\nNA\nNA\nNA\nNA\n46.477\nNA\nNA\nNA\nNA\nNA\n0.882\nNA\nNA\nNA\nNA\n400.120\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n26\nNA\nNA\n787.129\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n525.531\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n79.329\n\n\n44\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n9.452\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n45\n182.010\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n46\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n19.013\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\n47\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n289.366\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA"
   },
   {
-    "objectID": "posts/week-2/index.html#two-supplemental-topics",
-    "href": "posts/week-2/index.html#two-supplemental-topics",
-    "title": "Week 2: Building a Portfolio, Part I",
-    "section": "Two supplemental topics:",
-    "text": "Two supplemental topics:\n\nHow to Read R Help\nRMarkdown Driven Development"
+    "objectID": "posts/week-5/index.html#the-plot",
+    "href": "posts/week-5/index.html#the-plot",
+    "title": "Week 5: Interactive Visuals",
+    "section": "The Plot",
+    "text": "The Plot\n\nlibrary(networkD3)\n# Plot\nsankeyNetwork(Links = Energy$links, \n              Nodes = Energy$nodes, \n              Source = \"source\",\n              Target = \"target\", \n              Value = \"value\", \n              NodeID = \"name\",\n              units = \"TWh\", \n              fontSize = 12, \n              nodeWidth = 30)"
   },
   {
-    "objectID": "posts/week-1/index.html",
-    "href": "posts/week-1/index.html",
-    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
-    "section": "",
-    "text": "Updated: January 20, 2023 with a bit on shiny Meeting Date: January 9, 2023\nAttribution for cover graphic: XKCD\nFollowing the presentation of an overview of the general plan for the course and our establishment of familiarity with one another, I will focus on three major topics for today, one leading into our next meeting in two weeks time (January 23, 2023)."
+    "objectID": "posts/week-5/index.html#pizza-ratings",
+    "href": "posts/week-5/index.html#pizza-ratings",
+    "title": "Week 5: Interactive Visuals",
+    "section": "Pizza Ratings",
+    "text": "Pizza Ratings\nA #tidyTuesday on pizza shop ratings data. The data come from a variety of sources; it is price, ratings, and similar data for pizza restaurants. The actual contents vary depending on the data source. I will begin by loading the data and summarizing what data seem to be available so that we can figure out what we can do with it. Let’s see what we have; NB: there are three datasets, I chose one.\n\npizza_datafiniti <- readr::read_csv(\"https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-01/pizza_datafiniti.csv\")\n\n\nsummary(pizza_datafiniti)\n\n     name             address              city             country         \n Length:10000       Length:10000       Length:10000       Length:10000      \n Class :character   Class :character   Class :character   Class :character  \n Mode  :character   Mode  :character   Mode  :character   Mode  :character  \n                                                                            \n                                                                            \n                                                                            \n   province            latitude       longitude        categories       \n Length:10000       Min.   :21.42   Min.   :-157.80   Length:10000      \n Class :character   1st Qu.:34.42   1st Qu.:-104.80   Class :character  \n Mode  :character   Median :40.12   Median : -82.91   Mode  :character  \n                    Mean   :38.37   Mean   : -90.06                     \n                    3rd Qu.:40.91   3rd Qu.: -75.19                     \n                    Max.   :64.85   Max.   : -71.95                     \n price_range_min  price_range_max\n Min.   : 0.000   Min.   : 7.00  \n 1st Qu.: 0.000   1st Qu.:25.00  \n Median : 0.000   Median :25.00  \n Mean   : 4.655   Mean   :27.76  \n 3rd Qu.: 0.000   3rd Qu.:25.00  \n Max.   :50.000   Max.   :55.00  \n\n\nI will use this data; it contains some Oregon pizzarias.\n\npizza_datafiniti %>% filter(province==\"OR\")\n\n# A tibble: 122 × 10\n   name    address city  country provi…¹ latit…² longi…³ categ…⁴ price…⁵ price…⁶\n   <chr>   <chr>   <chr> <chr>   <chr>     <dbl>   <dbl> <chr>     <dbl>   <dbl>\n 1 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n 2 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n 3 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n 4 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n 5 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n 6 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n 7 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n 8 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n 9 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n10 Coburg… 1710 C… Spri… US      OR         44.1   -123. Restau…       0      25\n# … with 112 more rows, and abbreviated variable names ¹​province, ²​latitude,\n#   ³​longitude, ⁴​categories, ⁵​price_range_min, ⁶​price_range_max\n\n\nFor the first plot, let me show what is going on in Oregon.\n\npizzaData <- pizza_datafiniti %>% \n  filter(province==\"OR\") %>% \n  group_by(name) %>% \n  mutate(Tcount = n(), \n         PriceAvg = mean(price_range_max - price_range_min)) %>% \n  ungroup()\np <- pizzaData %>% ggplot(.) +\n  aes(x=reorder(name,PriceAvg), \n      fill=PriceAvg) + \n  geom_bar() + \n  coord_flip() + \n  labs(x=\"Pizza Restaurant\", \n       y=\"Count\", \n       title=\"Oregon Pizzerias\", \n       caption = \"data from #tidyTuesday; sorted by Average Price\")\np\n\n\n\n\nNow I want a map.\n\npizzaData$group <- 44\nstates <- map_data(\"state\")\nOR.df <- subset(states, region == \"oregon\")\nOR_base <- ggplot(data = OR.df, mapping = aes(x = long, y = lat, group = group)) +\ngeom_polygon(color = \"black\", fill = \"gray\") + labs(title=\"Oregon Pizzerias\")\nOR_base\n\n\n\n\n\nOR.Pizza <- OR_base + geom_point(data = pizzaData, aes(y=latitude, x=longitude, group=group), color = \"red\")\nOR.Pizza\n\n\n\n\nCombine them into one picture\n\ngrid.arrange(p,OR.Pizza, ncol=2)\n\n\n\n\nNow to use a girafe to put this together interactively.\n\ntheme_set(theme_minimal())\npizzaData <- pizzaData %>% mutate(name = str_remove(name, \"['``]\"))\n# Build the barplot\ngg1 <- ggplot(pizzaData, aes(x=reorder(name,PriceAvg), fill=PriceAvg)) +\n  geom_bar_interactive(aes(x = name, tooltip = name, data_id = name))  + \n  coord_flip() + scale_fill_viridis_c() + theme(axis.text=element_text(size=8)) +\n  labs(x=\"Pizza Restaurant\", y=\"Count\", caption = \"data from #tidyTuesday\", sub=\"sorted by Average Price\") \n# Build the map\ngg2 <- ggplot(data = OR.df, mapping = aes(x = long, y = lat, group = group)) +\n  geom_polygon(fill=gray(0.95)) + \n  geom_text_interactive(data = pizzaData, aes(y=latitude, x=longitude, label=emoji('pizza'), tooltip = name, data_id = name), family='EmojiOne', size=2, color=\"orange\") + \n  scale_color_viridis_c(guide=FALSE) +\n  theme_nothing()\n# Bind them together with girafe\na <- girafe( code = print(gg1 / gg2 + plot_annotation(title=\"Pizza in Oregon\")))\nlibrary(widgetframe)\nframeWidget(a, width = \"100%\", height = \"100%\")\n\n\n\n\n\nThe formatting of this is quite off. For some reason, the frame doesn’t control scroll and overplots."
   },
   {
-    "objectID": "posts/week-1/index.html#key-tips",
-    "href": "posts/week-1/index.html#key-tips",
-    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
-    "section": "Key Tips",
-    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
+    "objectID": "posts/week-5/index.html#a-clever-function",
+    "href": "posts/week-5/index.html#a-clever-function",
+    "title": "Week 5: Interactive Visuals",
+    "section": "A clever function",
+    "text": "A clever function\nTed Laderas [@laderast on Twitter] wrote a function to present the ten most expensive items in a category for the items dataset. You can find his repo for this here.. I will change rows 3 and 9. Line 3 adds the new argument to the function and line 9 carries the variable defined in the argument into top_n.\n\n\n\nTed’s Original\n\nlibrary(ggimage); library(gt)\nlibrary(tidyverse)\nmost_expensive <- function(category_name=NULL, price_category=buy_value){\n  if(!is.null(category_name)){\n    items <- items %>%\n      filter(category == category_name)\n  }\nitems %>% \n  top_n(10, {{price_category}}) %>%\n  arrange(desc({{price_category}})) %>%\n  select(name, sell_value, buy_value, category, image=image_url) %>%\n  gt() %>%\n   text_transform(\n    locations = cells_body(vars(image)),\n    fn = function(x) {\n      web_image(\n        url = x,\n        height = 50\n      )\n    }\n  )\n}\n\n\n\n\n\n\nMy Modification\n\nlibrary(ggimage); library(gt)\nlibrary(tidyverse)\nmost_expensive <- function(category_name=NULL, price_category=buy_value, n=10){\n  if(!is.null(category_name)){\n    items <- items %>%\n      filter(category == category_name)\n  }\nitems %>% \n  top_n(n, {{price_category}}) %>%\n  arrange(desc({{price_category}})) %>%\n  select(name, image=image_url, sell_value, buy_value, category) %>%\n  gt() %>%\n   text_transform(\n    locations = cells_body(vars(image)),\n    fn = function(x) {\n      web_image(\n        url = x,\n        height = 50\n      )\n    }\n  )\n}"
   },
   {
-    "objectID": "posts/week-1/index.html#two-supplemental-topics",
-    "href": "posts/week-1/index.html#two-supplemental-topics",
-    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
-    "section": "Two supplemental topics:",
-    "text": "Two supplemental topics:\n\nHow to Read R Help\nUseful places for assistance: Stack Overflow, RStudio Forums"
+    "objectID": "posts/week-5/index.html#making-a-table",
+    "href": "posts/week-5/index.html#making-a-table",
+    "title": "Week 5: Interactive Visuals",
+    "section": "Making a Table",
+    "text": "Making a Table\n\nmost_expensive() %>%  \n  tab_header(title = \"Most Expensive Items in Animal Crossing By Buy Price\") %>%  \n  cols_label(\n    name = \"Item\",\n    sell_value = \"Sale Price\",\n    buy_value = \"Buy Price\",\n    category = \"Item Type\",\n    image = \"Picture\"\n  ) %>%   tab_spanner(\n    label = \"Prices\",\n    columns = c(buy_value, sell_value)\n  )\n\n\n\n\n\n  \n    \n      Most Expensive Items in Animal Crossing By Buy Price\n    \n    \n  \n  \n    \n      Item\n      Picture\n      \n        Prices\n      \n      Item Type\n    \n    \n      Buy Price\n      Sale Price\n    \n  \n  \n    Royal Crown\n\n1200000\n300000\nHats\n    Crown\n\n1000000\n250000\nHats\n    Gold Armor\n\n320000\n80000\nDresses\n    Golden Casket\n\n320000\n80000\nFurniture\n    Grand Piano\n\n260000\n65000\nFurniture\n    Golden Toilet\n\n240000\n60000\nFurniture\n    Blue Steel Staircase\n\n228000\nNA\nFurniture\n    Iron Bridge\n\n228000\nNA\nFurniture\n    Red Steel Staircase\n\n228000\nNA\nFurniture\n    Red Zen Bridge\n\n228000\nNA\nFurniture\n    Zen Bridge\n\n228000\nNA\nFurniture"
   },
   {
-    "objectID": "posts/week-1/index.html#one-key-thing-thats-on-my-mind",
-    "href": "posts/week-1/index.html#one-key-thing-thats-on-my-mind",
-    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
-    "section": "One Key Thing That’s on My Mind",
-    "text": "One Key Thing That’s on My Mind\n\n\n\nwinston-chang\n\n\nThis is a very nice comparison of the two methods. The shinylive via Github pages really is a neat feature."
+    "objectID": "posts/week-5/index.html#the-question",
+    "href": "posts/week-5/index.html#the-question",
+    "title": "Week 5: Interactive Visuals",
+    "section": "The Question",
+    "text": "The Question\n\nmost_expensive(\"Hats\") %>%  tab_header(title = \"Most Expensive Items in Animal Crossing By Buy Price\") %>%  cols_label(\n    name = \"Item\",\n    sell_value = \"Sale Price\",\n    buy_value = \"Buy Price\",\n    category = \"Item Type\",\n    image = \"Picture\"\n) %>%   tab_spanner(\n    label = \"Prices\",\n    columns = c(buy_value, sell_value)\n)\n\n\n\n\n\n  \n    \n      Most Expensive Items in Animal Crossing By Buy Price\n    \n    \n  \n  \n    \n      Item\n      Picture\n      \n        Prices\n      \n      Item Type\n    \n    \n      Buy Price\n      Sale Price\n    \n  \n  \n    Royal Crown\n\n1200000\n300000\nHats\n    Crown\n\n1000000\n250000\nHats\n    Gold Helmet\n\n200000\n50000\nHats\n    Blue Rose Crown\n\n48000\n12000\nHats\n    Gold Rose Crown\n\n48000\n12000\nHats\n    Snowperson Head\n\n28000\n7000\nHats\n    Knight's Helmet\n\n15000\n3750\nHats\n    Dark Cosmos Crown\n\n13440\n3360\nHats\n    Chic Rose Crown\n\n11520\n2880\nHats\n    Purple Hyacinth Crown\n\n11520\n2880\nHats\n    Purple Pansy Crown\n\n11520\n2880\nHats\n    Purple Windflower Crown\n\n11520\n2880\nHats\n    Simple Mum Crown\n\n11520\n2880\nHats"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Communicating With Data",
-    "section": "",
-    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html#instructor",
-    "href": "about.html#instructor",
-    "title": "About",
-    "section": "Instructor",
-    "text": "Instructor\nRobert W. Walker is Associate Professor of Quantitative Methods in the Atkinson Graduate School of Management at Willamette University. He earned a Ph. D. in political science from the University of Rochester in 2005 and has previously held teaching positions at Dartmouth College, Rice University, Texas A&M University, and Washington University in Saint Louis. His current research develops and applies semi-Markov processes to time-series, cross-section data in international relations and international/comparative political economy. He teaches courses in quantitative methods/applied statistics and microeconomic strategy and previously taught four iterations in the U. S. National Science Foundation funded Empirical Implications of Theoretical Models sequence at Washington University in Saint Louis. His work with Curt Signorino and Muhammet Bas was awarded the Miller Prize for the best article in Political Analysis in 2009."
+    "objectID": "posts/week-5/index.html#fossils",
+    "href": "posts/week-5/index.html#fossils",
+    "title": "Week 5: Interactive Visuals",
+    "section": "Fossils?",
+    "text": "Fossils?\n\nmost_expensive(\"Fossils\", price_category = sell_value, n=65) %>%  tab_header(title = \"Most Expensive Items in Animal Crossing By Buy Price\") %>%  cols_label(\n    name = \"Item\",\n    sell_value = \"Sale Price\",\n    buy_value = \"Buy Price\",\n    category = \"Item Type\",\n    image = \"Picture\"\n) %>%   tab_spanner(\n    label = \"Prices\",\n    columns = c(buy_value, sell_value)\n)\n\n\n\n\n\n  \n    \n      Most Expensive Items in Animal Crossing By Buy Price\n    \n    \n  \n  \n    \n      Item\n      Picture\n      \n        Prices\n      \n      Item Type\n    \n    \n      Buy Price\n      Sale Price\n    \n  \n  \n    Brachio Skull\n\nNA\n6000\nFossils\n    T. Rex Skull\n\nNA\n6000\nFossils\n    Brachio Chest\n\nNA\n5500\nFossils\n    Brachio Tail\n\nNA\n5500\nFossils\n    Dimetrodon Skull\n\nNA\n5500\nFossils\n    Right Megalo Side\n\nNA\n5500\nFossils\n    T. Rex Torso\n\nNA\n5500\nFossils\n    Tricera Skull\n\nNA\n5500\nFossils\n    Brachio Pelvis\n\nNA\n5000\nFossils\n    Dimetrodon Torso\n\nNA\n5000\nFossils\n    Diplo Skull\n\nNA\n5000\nFossils\n    Diplo Tail\n\nNA\n5000\nFossils\n    Left Quetzal Wing\n\nNA\n5000\nFossils\n    Right Quetzal Wing\n\nNA\n5000\nFossils\n    Stego Skull\n\nNA\n5000\nFossils\n    T. Rex Tail\n\nNA\n5000\nFossils\n    Tricera Torso\n\nNA\n5000\nFossils\n    Diplo Neck\n\nNA\n4500\nFossils\n    Diplo Pelvis\n\nNA\n4500\nFossils\n    Left Ptera Wing\n\nNA\n4500\nFossils\n    Megacero Skull\n\nNA\n4500\nFossils\n    Plesio Body\n\nNA\n4500\nFossils\n    Plesio Tail\n\nNA\n4500\nFossils\n    Quetzal Torso\n\nNA\n4500\nFossils\n    Right Ptera Wing\n\nNA\n4500\nFossils\n    Stego Torso\n\nNA\n4500\nFossils\n    Tricera Tail\n\nNA\n4500\nFossils\n    Archelon Skull\n\nNA\n4000\nFossils\n    Diplo Chest\n\nNA\n4000\nFossils\n    Diplo Tail Tip\n\nNA\n4000\nFossils\n    Iguanodon Skull\n\nNA\n4000\nFossils\n    Left Megalo Side\n\nNA\n4000\nFossils\n    Pachy Skull\n\nNA\n4000\nFossils\n    Plesio Skull\n\nNA\n4000\nFossils\n    Ptera Body\n\nNA\n4000\nFossils\n    Spino Skull\n\nNA\n4000\nFossils\n    Stego Tail\n\nNA\n4000\nFossils\n    Ankylo Skull\n\nNA\n3500\nFossils\n    Archelon Tail\n\nNA\n3500\nFossils\n    Dunkleosteus\n\nNA\n3500\nFossils\n    Iguanodon Torso\n\nNA\n3500\nFossils\n    Megacero Torso\n\nNA\n3500\nFossils\n    Pachy Tail\n\nNA\n3500\nFossils\n    Parasaur Skull\n\nNA\n3500\nFossils\n    Ankylo Torso\n\nNA\n3000\nFossils\n    Deinony Torso\n\nNA\n3000\nFossils\n    Iguanodon Tail\n\nNA\n3000\nFossils\n    Mammoth Skull\n\nNA\n3000\nFossils\n    Megacero Tail\n\nNA\n3000\nFossils\n    Parasaur Torso\n\nNA\n3000\nFossils\n    Spino Torso\n\nNA\n3000\nFossils\n    Ankylo Tail\n\nNA\n2500\nFossils\n    Deinony Tail\n\nNA\n2500\nFossils\n    Mammoth Torso\n\nNA\n2500\nFossils\n    Ophthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Torso\n\nNA\n2500\nFossils\n    Parasaur Tail\n\nNA\n2500\nFossils\n    Sabertooth Skull\n\nNA\n2500\nFossils\n    Spino Tail\n\nNA\n2500\nFossils\n    Acanthostega\n\nNA\n2000\nFossils\n    Anomalocaris\n\nNA\n2000\nFossils\n    Eusthenopteron\n\nNA\n2000\nFossils\n    Ophthalmo Torso\n\nNA\n2000\nFossils\n    Sabertooth Tail\n\nNA\n2000\nFossils"
   }
 ]

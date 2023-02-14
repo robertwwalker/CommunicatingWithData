@@ -1,0 +1,341 @@
+---
+title: "Week 5: Interactive Visuals"
+author: "Robert W. Walker"
+date: "2023-02-13"
+categories: [R]
+image: "image.png"
+highlight-style: ayu
+---
+
+```{r setup1, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+```
+
+
+Meeting Date: February 13, 2023.
+
+Last updated: `r Sys.time()` 
+
+Timezone: `r Sys.timezone()`
+
+![Data from Our World in data, example sankey](./image.png)
+
+# Class Plan 
+
+1. AMA
+2. A Review of Nice Tables?
+3. Interactive Graphics in R
+   - Network data and interaction with `networkD3`.
+   - Plotly and ggplotly
+   - Crosstalk related tools
+   - ggiraph
+
+
+# Slides:
+[Week 5 Slides](https://robertwwalker.github.io/CWD-Slides/week-5/index.html)
+
+# The Site I am Building
+
+[My github main page](https://robertwwalker.github.io)
+
+# Readings:
+
+- Quarto Documentation [if not already done]
+- The `gt` docs [link](https://gt.rstudio.com/)
+- The `flextable` [book](https://ardata-fr.github.io/flextable-book/)
+
+## Resources
+
+- [gtExtras](https://jthomasmock.github.io/gtExtras/)
+- [the flextable gallery](https://ardata.fr/en/flextable-gallery/)
+- [flexpivot](https://dreamrs.github.io/flexpivot/)
+- [the gt cookbook](https://themockup.blog/static/resources/gt-cookbook.html)
+- 
+
+# Homework
+
+**The fifth assignment consists of adding at two interactive graphics.**
+
+![Syllabus Module for Week 5](img/Screen Shot 2023-02-13 at 1.22.34 PM.png)
+
+**Deliverables: an email containing the URLs for the interactive visualization posts.**
+
+# Network Visualization
+
+## The Data
+
+```{r}
+library(jsonlite)
+URL <- paste0("https://cdn.rawgit.com/christophergandrud/networkD3/","master/JSONdata/energy.json")
+Energy <- fromJSON(URL)
+Links <- Energy$links 
+pivot_wider(Links, id_cols=source, names_from = target, values_from = value) %>% knitr::kable()
+```
+
+## The Plot
+
+```{r}
+library(networkD3)
+# Plot
+sankeyNetwork(Links = Energy$links, 
+              Nodes = Energy$nodes, 
+              Source = "source",
+              Target = "target", 
+              Value = "value", 
+              NodeID = "name",
+              units = "TWh", 
+              fontSize = 12, 
+              nodeWidth = 30)
+```
+
+
+
+# Pizza [ggiraph]
+
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggthemes)
+library(ggiraph)
+library(ggthemes)
+library(patchwork)
+library(cowplot)
+library(rayshader)
+library(emojifont)
+library(gridExtra)
+library(extrafont)
+```
+
+## Pizza Ratings
+
+A `#tidyTuesday` on pizza shop ratings data.  The data come from a variety of sources; it is price, ratings, and similar data for pizza restaurants.  The actual contents vary depending on the data source.  I will begin by loading the data and summarizing what data seem to be available so that we can figure out what we can do with it.  Let's see what we have; NB: there are three datasets, I chose one.
+
+```{r DataLPizza}
+pizza_datafiniti <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-01/pizza_datafiniti.csv")
+```
+
+```{r PizzaSummary}
+summary(pizza_datafiniti)
+```
+
+I will use this data; it contains some Oregon pizzarias.
+
+```{r ORFilter}
+pizza_datafiniti %>% filter(province=="OR")
+```
+
+For the first plot, let me show what is going on in Oregon.
+
+```{r ORPizzaP1}
+pizzaData <- pizza_datafiniti %>% 
+  filter(province=="OR") %>% 
+  group_by(name) %>% 
+  mutate(Tcount = n(), 
+         PriceAvg = mean(price_range_max - price_range_min)) %>% 
+  ungroup()
+p <- pizzaData %>% ggplot(.) +
+  aes(x=reorder(name,PriceAvg), 
+      fill=PriceAvg) + 
+  geom_bar() + 
+  coord_flip() + 
+  labs(x="Pizza Restaurant", 
+       y="Count", 
+       title="Oregon Pizzerias", 
+       caption = "data from #tidyTuesday; sorted by Average Price")
+p
+```
+
+Now I want a map.
+
+```{r}
+pizzaData$group <- 44
+states <- map_data("state")
+OR.df <- subset(states, region == "oregon")
+OR_base <- ggplot(data = OR.df, mapping = aes(x = long, y = lat, group = group)) +
+geom_polygon(color = "black", fill = "gray") + labs(title="Oregon Pizzerias")
+OR_base
+```
+
+```{r}
+OR.Pizza <- OR_base + geom_point(data = pizzaData, aes(y=latitude, x=longitude, group=group), color = "red")
+OR.Pizza
+```
+
+Combine them into one picture
+
+```{r}
+grid.arrange(p,OR.Pizza, ncol=2)
+```
+
+Now to use a girafe to put this together interactively.
+
+```{r}
+theme_set(theme_minimal())
+pizzaData <- pizzaData %>% mutate(name = str_remove(name, "['``]"))
+# Build the barplot
+gg1 <- ggplot(pizzaData, aes(x=reorder(name,PriceAvg), fill=PriceAvg)) +
+  geom_bar_interactive(aes(x = name, tooltip = name, data_id = name))  + 
+  coord_flip() + scale_fill_viridis_c() + theme(axis.text=element_text(size=8)) +
+  labs(x="Pizza Restaurant", y="Count", caption = "data from #tidyTuesday", sub="sorted by Average Price") 
+# Build the map
+gg2 <- ggplot(data = OR.df, mapping = aes(x = long, y = lat, group = group)) +
+  geom_polygon(fill=gray(0.95)) + 
+  geom_text_interactive(data = pizzaData, aes(y=latitude, x=longitude, label=emoji('pizza'), tooltip = name, data_id = name), family='EmojiOne', size=2, color="orange") + 
+  scale_color_viridis_c(guide=FALSE) +
+  theme_nothing()
+# Bind them together with girafe
+a <- girafe( code = print(gg1 / gg2 + plot_annotation(title="Pizza in Oregon")))
+library(widgetframe)
+frameWidget(a, width = "100%", height = "100%")
+```
+
+
+The formatting of this is quite off.  For some reason, the frame doesn't control scroll and overplots.
+
+
+# Rayshader
+
+And a mini-rayshader.  This is a complete lift and replace of the vignette after calculating the Price Midpoint.
+
+```{r, dev='svg', eval=FALSE}
+states <- map_data("state")
+PDF <- pizza_datafiniti %>% mutate(Price.Midpoint = (price_range_min + price_range_max / 2))
+mtplot <- ggplot(data = states, mapping = aes(x = long, y = lat)) +
+  geom_polygon(color = "black", fill = "gray") + 
+  geom_point(data=PDF, aes(x = longitude, y = latitude, color = Price.Midpoint)) + 
+  scale_color_viridis_c() + theme_minimal()
+plot_gg(mtplot, width = 3.5, multicore = TRUE, windowsize = c(1200, 1200), 
+        zoom = 0.5, phi = 35, theta = 30, sunangle = 15, soliddepth = -20)
+render_snapshot(clear = TRUE)
+```
+
+
+# Addendum: the function
+
+**Borrowed from Ted Laderas.**
+
+```{r}
+library(DT)
+items <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-05/items.csv')
+datatable(head(items))
+```
+
+## A clever function
+
+Ted Laderas [`@laderast` on Twitter] wrote a function to present the ten most expensive items in a `category` for the items dataset.  You can find his [repo for this here.](https://github.com/laderast/tidy_tuesday/tree/master/2020-05-05_animal-crossing).  I will change rows 3 and 9.  Line 3 adds the new argument to the function and line 9 carries the variable defined in the argument into `top_n`.
+
+:::: {.columns}
+::: {.column width="47.5%"}
+### Ted's Original
+
+```{r}
+#| code-line-numbers: true
+library(ggimage); library(gt)
+library(tidyverse)
+most_expensive <- function(category_name=NULL, price_category=buy_value){
+  if(!is.null(category_name)){
+    items <- items %>%
+      filter(category == category_name)
+  }
+items %>% 
+  top_n(10, {{price_category}}) %>%
+  arrange(desc({{price_category}})) %>%
+  select(name, sell_value, buy_value, category, image=image_url) %>%
+  gt() %>%
+   text_transform(
+    locations = cells_body(vars(image)),
+    fn = function(x) {
+      web_image(
+        url = x,
+        height = 50
+      )
+    }
+  )
+}
+```
+:::
+
+::: {.column width="5%"}
+
+:::
+::: {.column width="47.5%"}
+### My Modification
+
+```{r}
+#| code-line-numbers: true
+library(ggimage); library(gt)
+library(tidyverse)
+most_expensive <- function(category_name=NULL, price_category=buy_value, n=10){
+  if(!is.null(category_name)){
+    items <- items %>%
+      filter(category == category_name)
+  }
+items %>% 
+  top_n(n, {{price_category}}) %>%
+  arrange(desc({{price_category}})) %>%
+  select(name, image=image_url, sell_value, buy_value, category) %>%
+  gt() %>%
+   text_transform(
+    locations = cells_body(vars(image)),
+    fn = function(x) {
+      web_image(
+        url = x,
+        height = 50
+      )
+    }
+  )
+}
+```
+        
+:::
+::::
+
+
+## Making a Table
+
+```{r}
+most_expensive() %>%  
+  tab_header(title = "Most Expensive Items in Animal Crossing By Buy Price") %>%  
+  cols_label(
+    name = "Item",
+    sell_value = "Sale Price",
+    buy_value = "Buy Price",
+    category = "Item Type",
+    image = "Picture"
+  ) %>%   tab_spanner(
+    label = "Prices",
+    columns = c(buy_value, sell_value)
+  )
+```
+
+## The Question
+
+```{r}
+most_expensive("Hats") %>%  tab_header(title = "Most Expensive Items in Animal Crossing By Buy Price") %>%  cols_label(
+    name = "Item",
+    sell_value = "Sale Price",
+    buy_value = "Buy Price",
+    category = "Item Type",
+    image = "Picture"
+) %>%   tab_spanner(
+    label = "Prices",
+    columns = c(buy_value, sell_value)
+)
+```
+
+## Fossils?
+
+```{r}
+most_expensive("Fossils", price_category = sell_value, n=65) %>%  tab_header(title = "Most Expensive Items in Animal Crossing By Buy Price") %>%  cols_label(
+    name = "Item",
+    sell_value = "Sale Price",
+    buy_value = "Buy Price",
+    category = "Item Type",
+    image = "Picture"
+) %>%   tab_spanner(
+    label = "Prices",
+    columns = c(buy_value, sell_value)
+)
+```
+
