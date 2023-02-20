@@ -1,80 +1,10 @@
 [
   {
-    "objectID": "about.html#instructor",
-    "href": "about.html#instructor",
-    "title": "About",
-    "section": "Instructor",
-    "text": "Instructor\nRobert W. Walker is Associate Professor of Quantitative Methods in the Atkinson Graduate School of Management at Willamette University. He earned a Ph. D. in political science from the University of Rochester in 2005 and has previously held teaching positions at Dartmouth College, Rice University, Texas A&M University, and Washington University in Saint Louis. His current research develops and applies semi-Markov processes to time-series, cross-section data in international relations and international/comparative political economy. He teaches courses in quantitative methods/applied statistics and microeconomic strategy and previously taught four iterations in the U. S. National Science Foundation funded Empirical Implications of Theoretical Models sequence at Washington University in Saint Louis. His work with Curt Signorino and Muhammet Bas was awarded the Miller Prize for the best article in Political Analysis in 2009."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Communicating With Data",
-    "section": "",
-    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/week-1/index.html",
-    "href": "posts/week-1/index.html",
-    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
-    "section": "",
-    "text": "Updated: January 20, 2023 with a bit on shiny Meeting Date: January 9, 2023\nAttribution for cover graphic: XKCD\nFollowing the presentation of an overview of the general plan for the course and our establishment of familiarity with one another, I will focus on three major topics for today, one leading into our next meeting in two weeks time (January 23, 2023)."
-  },
-  {
-    "objectID": "posts/week-1/index.html#key-tips",
-    "href": "posts/week-1/index.html#key-tips",
-    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
-    "section": "Key Tips",
-    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
-  },
-  {
-    "objectID": "posts/week-1/index.html#two-supplemental-topics",
-    "href": "posts/week-1/index.html#two-supplemental-topics",
-    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
-    "section": "Two supplemental topics:",
-    "text": "Two supplemental topics:\n\nHow to Read R Help\nUseful places for assistance: Stack Overflow, RStudio Forums"
-  },
-  {
-    "objectID": "posts/week-1/index.html#one-key-thing-thats-on-my-mind",
-    "href": "posts/week-1/index.html#one-key-thing-thats-on-my-mind",
-    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
-    "section": "One Key Thing That’s on My Mind",
-    "text": "One Key Thing That’s on My Mind\n\n\n\nwinston-chang\n\n\nThis is a very nice comparison of the two methods. The shinylive via Github pages really is a neat feature."
-  },
-  {
-    "objectID": "posts/week-2/index.html",
-    "href": "posts/week-2/index.html",
-    "title": "Week 2: Building a Portfolio, Part I",
-    "section": "",
-    "text": "Meeting Date: January 23, 2023"
-  },
-  {
-    "objectID": "posts/week-2/index.html#key-tips",
-    "href": "posts/week-2/index.html#key-tips",
-    "title": "Week 2: Building a Portfolio, Part I",
-    "section": "Key Tips",
-    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
-  },
-  {
-    "objectID": "posts/week-2/index.html#two-supplemental-topics",
-    "href": "posts/week-2/index.html#two-supplemental-topics",
-    "title": "Week 2: Building a Portfolio, Part I",
-    "section": "Two supplemental topics:",
-    "text": "Two supplemental topics:\n\nHow to Read R Help\nRMarkdown Driven Development"
-  },
-  {
-    "objectID": "posts/week-3/index.html",
-    "href": "posts/week-3/index.html",
-    "title": "Week 3: Building a Portfolio, Part II",
-    "section": "",
-    "text": "Meeting Date: January 30, 2023\nLast updated: 2023-02-13 16:01:56\nTimezone: America/Los_Angeles\n\nClass Plan [Not Necessarily Chronological]\n\nAMA\nQuarto Things\nEssential Differences between Quarto and RMarkdown\nAdding to a Portfolio with Quarto, Distil, or Blogdown\n\nSlides: Week 3 Slides\nReadings:\n\nQuarto Documentation [if not already done]\n\nLinks I will work from:\nMy Blog My Quarto site on Github pages\n\n\nHomework\nThe third assignment has a group component and an individual component.\n\nYou are to expand your portfolio with at least two pieces of analysis. What analysis? Bits of data visualization or modelling. One should be inspired by a tidyTuesday data visualization, with appropriate citation, and must expand, extend, or in some substantive way deviate from the original.\nYou should also pick a partner and share commentary on improving the aesthetic and the pitch of your existing quarto website. There is a thread on discord called #awesome-quarto that contains information extending the quarto documentation that you should have read last time. I would strongly encourage you to check it out.\n\nThere is also manual reading. The class next time will focus on tables. Here is the selection from the syllabus.\n\n\n\nSyllabus Module for Week 4\n\n\nDeliverable: an email containing the URLs for the two posts and at least one example of constructive commentary on your partner’s portfolio including their name."
-  },
-  {
     "objectID": "posts/week-4/index.html",
     "href": "posts/week-4/index.html",
     "title": "Week 4: Beautiful Tables",
     "section": "",
-    "text": "Meeting Date: February 6, 2023.\nLast updated: 2023-02-13 16:01:57\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 6, 2023.\nLast updated: 2023-02-20 14:09:57\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-4/index.html#resources",
@@ -133,11 +63,39 @@
     "text": "Fossils?\n\nmost_expensive(\"Fossils\", price_category = sell_value, n=65) %>%  tab_header(title = \"Most Expensive Items in Animal Crossing By Buy Price\") %>%  cols_label(\n    name = \"Item\",\n    sell_value = \"Sale Price\",\n    buy_value = \"Buy Price\",\n    category = \"Item Type\",\n    image = \"Picture\"\n) %>%   tab_spanner(\n    label = \"Prices\",\n    columns = c(buy_value, sell_value)\n)\n\n\n\n\n\n  \n    \n      Most Expensive Items in Animal Crossing By Buy Price\n    \n    \n  \n  \n    \n      Item\n      Picture\n      \n        Prices\n      \n      Item Type\n    \n    \n      Buy Price\n      Sale Price\n    \n  \n  \n    Brachio Skull\n\nNA\n6000\nFossils\n    T. Rex Skull\n\nNA\n6000\nFossils\n    Brachio Chest\n\nNA\n5500\nFossils\n    Brachio Tail\n\nNA\n5500\nFossils\n    Dimetrodon Skull\n\nNA\n5500\nFossils\n    Right Megalo Side\n\nNA\n5500\nFossils\n    T. Rex Torso\n\nNA\n5500\nFossils\n    Tricera Skull\n\nNA\n5500\nFossils\n    Brachio Pelvis\n\nNA\n5000\nFossils\n    Dimetrodon Torso\n\nNA\n5000\nFossils\n    Diplo Skull\n\nNA\n5000\nFossils\n    Diplo Tail\n\nNA\n5000\nFossils\n    Left Quetzal Wing\n\nNA\n5000\nFossils\n    Right Quetzal Wing\n\nNA\n5000\nFossils\n    Stego Skull\n\nNA\n5000\nFossils\n    T. Rex Tail\n\nNA\n5000\nFossils\n    Tricera Torso\n\nNA\n5000\nFossils\n    Diplo Neck\n\nNA\n4500\nFossils\n    Diplo Pelvis\n\nNA\n4500\nFossils\n    Left Ptera Wing\n\nNA\n4500\nFossils\n    Megacero Skull\n\nNA\n4500\nFossils\n    Plesio Body\n\nNA\n4500\nFossils\n    Plesio Tail\n\nNA\n4500\nFossils\n    Quetzal Torso\n\nNA\n4500\nFossils\n    Right Ptera Wing\n\nNA\n4500\nFossils\n    Stego Torso\n\nNA\n4500\nFossils\n    Tricera Tail\n\nNA\n4500\nFossils\n    Archelon Skull\n\nNA\n4000\nFossils\n    Diplo Chest\n\nNA\n4000\nFossils\n    Diplo Tail Tip\n\nNA\n4000\nFossils\n    Iguanodon Skull\n\nNA\n4000\nFossils\n    Left Megalo Side\n\nNA\n4000\nFossils\n    Pachy Skull\n\nNA\n4000\nFossils\n    Plesio Skull\n\nNA\n4000\nFossils\n    Ptera Body\n\nNA\n4000\nFossils\n    Spino Skull\n\nNA\n4000\nFossils\n    Stego Tail\n\nNA\n4000\nFossils\n    Ankylo Skull\n\nNA\n3500\nFossils\n    Archelon Tail\n\nNA\n3500\nFossils\n    Dunkleosteus\n\nNA\n3500\nFossils\n    Iguanodon Torso\n\nNA\n3500\nFossils\n    Megacero Torso\n\nNA\n3500\nFossils\n    Pachy Tail\n\nNA\n3500\nFossils\n    Parasaur Skull\n\nNA\n3500\nFossils\n    Ankylo Torso\n\nNA\n3000\nFossils\n    Deinony Torso\n\nNA\n3000\nFossils\n    Iguanodon Tail\n\nNA\n3000\nFossils\n    Mammoth Skull\n\nNA\n3000\nFossils\n    Megacero Tail\n\nNA\n3000\nFossils\n    Parasaur Torso\n\nNA\n3000\nFossils\n    Spino Torso\n\nNA\n3000\nFossils\n    Ankylo Tail\n\nNA\n2500\nFossils\n    Deinony Tail\n\nNA\n2500\nFossils\n    Mammoth Torso\n\nNA\n2500\nFossils\n    Ophthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Torso\n\nNA\n2500\nFossils\n    Parasaur Tail\n\nNA\n2500\nFossils\n    Sabertooth Skull\n\nNA\n2500\nFossils\n    Spino Tail\n\nNA\n2500\nFossils\n    Acanthostega\n\nNA\n2000\nFossils\n    Anomalocaris\n\nNA\n2000\nFossils\n    Eusthenopteron\n\nNA\n2000\nFossils\n    Ophthalmo Torso\n\nNA\n2000\nFossils\n    Sabertooth Tail\n\nNA\n2000\nFossils"
   },
   {
+    "objectID": "posts/week-3/index.html",
+    "href": "posts/week-3/index.html",
+    "title": "Week 3: Building a Portfolio, Part II",
+    "section": "",
+    "text": "Meeting Date: January 30, 2023\nLast updated: 2023-02-20 14:10:05\nTimezone: America/Los_Angeles\n\nClass Plan [Not Necessarily Chronological]\n\nAMA\nQuarto Things\nEssential Differences between Quarto and RMarkdown\nAdding to a Portfolio with Quarto, Distil, or Blogdown\n\nSlides: Week 3 Slides\nReadings:\n\nQuarto Documentation [if not already done]\n\nLinks I will work from:\nMy Blog My Quarto site on Github pages\n\n\nHomework\nThe third assignment has a group component and an individual component.\n\nYou are to expand your portfolio with at least two pieces of analysis. What analysis? Bits of data visualization or modelling. One should be inspired by a tidyTuesday data visualization, with appropriate citation, and must expand, extend, or in some substantive way deviate from the original.\nYou should also pick a partner and share commentary on improving the aesthetic and the pitch of your existing quarto website. There is a thread on discord called #awesome-quarto that contains information extending the quarto documentation that you should have read last time. I would strongly encourage you to check it out.\n\nThere is also manual reading. The class next time will focus on tables. Here is the selection from the syllabus.\n\n\n\nSyllabus Module for Week 4\n\n\nDeliverable: an email containing the URLs for the two posts and at least one example of constructive commentary on your partner’s portfolio including their name."
+  },
+  {
+    "objectID": "posts/week-2/index.html",
+    "href": "posts/week-2/index.html",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "",
+    "text": "Meeting Date: January 23, 2023"
+  },
+  {
+    "objectID": "posts/week-2/index.html#key-tips",
+    "href": "posts/week-2/index.html#key-tips",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "Key Tips",
+    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
+  },
+  {
+    "objectID": "posts/week-2/index.html#two-supplemental-topics",
+    "href": "posts/week-2/index.html#two-supplemental-topics",
+    "title": "Week 2: Building a Portfolio, Part I",
+    "section": "Two supplemental topics:",
+    "text": "Two supplemental topics:\n\nHow to Read R Help\nRMarkdown Driven Development"
+  },
+  {
     "objectID": "posts/week-5/index.html",
     "href": "posts/week-5/index.html",
     "title": "Week 5: Interactive Visuals",
     "section": "",
-    "text": "Meeting Date: February 13, 2023.\nLast updated: 2023-02-14 10:26:00\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 13, 2023.\nLast updated: 2023-02-20 14:10:07\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-5/index.html#resources",
@@ -159,6 +117,13 @@
     "title": "Week 5: Interactive Visuals",
     "section": "The Plot",
     "text": "The Plot\n\n\nCode\nlibrary(networkD3)\n# Plot\nsankeyNetwork(Links = Energy$links, \n              Nodes = Energy$nodes, \n              Source = \"source\",\n              Target = \"target\", \n              Value = \"value\", \n              NodeID = \"name\",\n              units = \"TWh\", \n              fontSize = 12, \n              nodeWidth = 30)"
+  },
+  {
+    "objectID": "posts/week-5/index.html#the-plotly-package",
+    "href": "posts/week-5/index.html#the-plotly-package",
+    "title": "Week 5: Interactive Visuals",
+    "section": "The plotly package",
+    "text": "The plotly package\nplotly as a package has far more it can do.\n\n\nCode\nlibrary(plotly); library(magrittr)\nlibrary(tidyquant)\n# Use tidyquant to get the data\nINTC <- tq_get(\"INTC\")\n# Slice off the most recent 90 days\nINTC.tail.90 <- tail(INTC, 90)\nINTC.tail <- INTC.tail.90\n# Create a counter of days\nINTC.tail$ID <- seq.int(nrow(INTC.tail))\n# Round the prices to 2 digits\nINTC.tail %<>% mutate(close = round(close, digits=2))\n\n\nNow we want a function to create the dataset for each stage of the animation. There are a few ways to do this but most involve writing a function to create them. This example function comes from the plotly documents.\n\n\nCode\n# This is in the example for plotly paths\n# First a supporting function: getLevels takes input x\ngetLevels <- function (x) {\n  # if x is a factor\n    if (is.factor(x)) \n  # grab the levels of x\n        levels(x)\n  # if x is not a factor, sort unique values of x\n    else sort(unique(x))\n}\n# Two inputs, the data and the variable to form the splits along the x-axis\naccumulate_by <- function(dat, var) {\n  # This handles linking variables to their environment\n  var <- lazyeval::f_eval(var, dat)\n  # get the levels of the given variable using the function above\n  lvls <- getLevels(var)\n  # use lapply, tidy would use map to iterate over the levels in `lvls` and column bind the data with frame denotes by lvls[[x]]\n  dats <- lapply(seq_along(lvls), function(x) {\n   cbind(dat[var %in% lvls[seq(1, x)], ], frame = lvls[[x]])\n  })\n  # bind the rows together\n  dplyr::bind_rows(dats)\n}\n# Invoke the function on our ID variable\nINTC.tail <- INTC.tail %>% accumulate_by(~ID)\n# Create a figure of ID and close for each frame value using plotly's version of a line plot: type:scatter-mode:lines\n# The rest is standard plotly\nfig <- INTC.tail %>% plot_ly(\n  x = ~ID, \n  y = ~close, \n  frame = ~frame,\n  type = 'scatter', \n  mode = 'lines', \n  # This is short for fill to zero on the y-axis\n  fill = 'tozeroy',\n  fillcolor='rgba(73, 26, 201, 0.5)',\n  line = list(color = 'rgb(73, 26, 201)'),\n  text = ~paste(\"Date: \", date, \"<br>Close: $\", close), \n  hoverinfo = 'text'\n)\n# Add the layout; one title and two axes\n# I also mess with the margin to keep the figure from being cut off.\nfig <- fig %>% layout(\n  title =\"Intel Stock Closing Price: Last 90 Days\",\n  yaxis = list(\n    title = \"Close\", \n    range = c(0,50), \n    zeroline = F,\n    tickprefix = \"$\"\n  ),\n  xaxis = list(\n    title = \"Day\", \n    range = c(0,90), \n    zeroline = F, \n    showgrid = F\n  ),\n  margin = list(t=120) # adjust the plot margin to avoid cutting off letters\n) \n# Animate the figure with 100 frames\nfig <- fig %>% animation_opts(\n  frame = 100, # transition time 100 ms\n  transition = 0, # duration of smooth transition in ms\n  redraw = FALSE # redraw the plot at each transition?\n)\nfig <- fig %>% animation_slider(\n  currentvalue = list(\n    prefix = \"Day \"\n  )\n)\nfig\n\n\n\n\n\n\n\nAn easier plotly for these data because they are OHLC\nA link to a stand-alone document with all the data.\n\n\nCode\n# basic example of ohlc charts\n# custom colors\ni <- list(line = list(color = '#000000')) # black\nd <- list(line = list(color = '#FF0000')) # red\n# Create the figure\nfig.2 <- INTC.tail.90 %>%\n  plot_ly(x = ~date, type=\"ohlc\",\n          open = ~open, close = ~close,\n          high = ~high, low = ~low,\n          increasing = i, decreasing = d)\nfig.2"
   },
   {
     "objectID": "posts/week-5/index.html#pizza-ratings",
@@ -196,10 +161,87 @@
     "text": "Fossils?\n\n\nCode\nmost_expensive(\"Fossils\", price_category = sell_value, n=65) %>%  tab_header(title = \"Most Expensive Items in Animal Crossing By Buy Price\") %>%  cols_label(\n    name = \"Item\",\n    sell_value = \"Sale Price\",\n    buy_value = \"Buy Price\",\n    category = \"Item Type\",\n    image = \"Picture\"\n) %>%   tab_spanner(\n    label = \"Prices\",\n    columns = c(buy_value, sell_value)\n)\n\n\n\n\n\n\n  \n    \n      Most Expensive Items in Animal Crossing By Buy Price\n    \n    \n  \n  \n    \n      Item\n      Picture\n      \n        Prices\n      \n      Item Type\n    \n    \n      Buy Price\n      Sale Price\n    \n  \n  \n    Brachio Skull\n\nNA\n6000\nFossils\n    T. Rex Skull\n\nNA\n6000\nFossils\n    Brachio Chest\n\nNA\n5500\nFossils\n    Brachio Tail\n\nNA\n5500\nFossils\n    Dimetrodon Skull\n\nNA\n5500\nFossils\n    Right Megalo Side\n\nNA\n5500\nFossils\n    T. Rex Torso\n\nNA\n5500\nFossils\n    Tricera Skull\n\nNA\n5500\nFossils\n    Brachio Pelvis\n\nNA\n5000\nFossils\n    Dimetrodon Torso\n\nNA\n5000\nFossils\n    Diplo Skull\n\nNA\n5000\nFossils\n    Diplo Tail\n\nNA\n5000\nFossils\n    Left Quetzal Wing\n\nNA\n5000\nFossils\n    Right Quetzal Wing\n\nNA\n5000\nFossils\n    Stego Skull\n\nNA\n5000\nFossils\n    T. Rex Tail\n\nNA\n5000\nFossils\n    Tricera Torso\n\nNA\n5000\nFossils\n    Diplo Neck\n\nNA\n4500\nFossils\n    Diplo Pelvis\n\nNA\n4500\nFossils\n    Left Ptera Wing\n\nNA\n4500\nFossils\n    Megacero Skull\n\nNA\n4500\nFossils\n    Plesio Body\n\nNA\n4500\nFossils\n    Plesio Tail\n\nNA\n4500\nFossils\n    Quetzal Torso\n\nNA\n4500\nFossils\n    Right Ptera Wing\n\nNA\n4500\nFossils\n    Stego Torso\n\nNA\n4500\nFossils\n    Tricera Tail\n\nNA\n4500\nFossils\n    Archelon Skull\n\nNA\n4000\nFossils\n    Diplo Chest\n\nNA\n4000\nFossils\n    Diplo Tail Tip\n\nNA\n4000\nFossils\n    Iguanodon Skull\n\nNA\n4000\nFossils\n    Left Megalo Side\n\nNA\n4000\nFossils\n    Pachy Skull\n\nNA\n4000\nFossils\n    Plesio Skull\n\nNA\n4000\nFossils\n    Ptera Body\n\nNA\n4000\nFossils\n    Spino Skull\n\nNA\n4000\nFossils\n    Stego Tail\n\nNA\n4000\nFossils\n    Ankylo Skull\n\nNA\n3500\nFossils\n    Archelon Tail\n\nNA\n3500\nFossils\n    Dunkleosteus\n\nNA\n3500\nFossils\n    Iguanodon Torso\n\nNA\n3500\nFossils\n    Megacero Torso\n\nNA\n3500\nFossils\n    Pachy Tail\n\nNA\n3500\nFossils\n    Parasaur Skull\n\nNA\n3500\nFossils\n    Ankylo Torso\n\nNA\n3000\nFossils\n    Deinony Torso\n\nNA\n3000\nFossils\n    Iguanodon Tail\n\nNA\n3000\nFossils\n    Mammoth Skull\n\nNA\n3000\nFossils\n    Megacero Tail\n\nNA\n3000\nFossils\n    Parasaur Torso\n\nNA\n3000\nFossils\n    Spino Torso\n\nNA\n3000\nFossils\n    Ankylo Tail\n\nNA\n2500\nFossils\n    Deinony Tail\n\nNA\n2500\nFossils\n    Mammoth Torso\n\nNA\n2500\nFossils\n    Ophthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Torso\n\nNA\n2500\nFossils\n    Parasaur Tail\n\nNA\n2500\nFossils\n    Sabertooth Skull\n\nNA\n2500\nFossils\n    Spino Tail\n\nNA\n2500\nFossils\n    Acanthostega\n\nNA\n2000\nFossils\n    Anomalocaris\n\nNA\n2000\nFossils\n    Eusthenopteron\n\nNA\n2000\nFossils\n    Ophthalmo Torso\n\nNA\n2000\nFossils\n    Sabertooth Tail\n\nNA\n2000\nFossils"
   },
   {
-    "objectID": "posts/week-5/index.html#the-plotly-package",
-    "href": "posts/week-5/index.html#the-plotly-package",
-    "title": "Week 5: Interactive Visuals",
+    "objectID": "posts/week-6/index.html",
+    "href": "posts/week-6/index.html",
+    "title": "Week 6: Presentations",
+    "section": "",
+    "text": "Meeting Date: February 20, 2023.\nLast updated: 2023-02-20 14:10:17\nTimezone: America/Los_Angeles"
+  },
+  {
+    "objectID": "posts/week-6/index.html#resources",
+    "href": "posts/week-6/index.html#resources",
+    "title": "Week 6: Presentations",
+    "section": "Resources",
+    "text": "Resources\n\nInteractive Graphics\n\nJavascript for R\nThe ggiraph book\nPlotly for R\nr2d3: R Interface for D3\nnetworkD3\n\n\n\nQuarto Reference on Presentations\n\nThree Main Types\nThe references in the screenshot above from the syllabus\n\n\n\nParameterized Markdown [for next time]\n\nExample Document from my Blog\nAnother of my use cases: a mail merge\n\n\n\n\nSyllabus cutout"
+  },
+  {
+    "objectID": "posts/week-6/index.html#the-plotly-package",
+    "href": "posts/week-6/index.html#the-plotly-package",
+    "title": "Week 6: Presentations",
     "section": "The plotly package",
     "text": "The plotly package\nplotly as a package has far more it can do.\n\n\nCode\nlibrary(plotly); library(magrittr)\nlibrary(tidyquant)\n# Use tidyquant to get the data\nINTC <- tq_get(\"INTC\")\n# Slice off the most recent 90 days\nINTC.tail.90 <- tail(INTC, 90)\nINTC.tail <- INTC.tail.90\n# Create a counter of days\nINTC.tail$ID <- seq.int(nrow(INTC.tail))\n# Round the prices to 2 digits\nINTC.tail %<>% mutate(close = round(close, digits=2))\n\n\nNow we want a function to create the dataset for each stage of the animation. There are a few ways to do this but most involve writing a function to create them. This example function comes from the plotly documents.\n\n\nCode\n# This is in the example for plotly paths\n# First a supporting function: getLevels takes input x\ngetLevels <- function (x) {\n  # if x is a factor\n    if (is.factor(x)) \n  # grab the levels of x\n        levels(x)\n  # if x is not a factor, sort unique values of x\n    else sort(unique(x))\n}\n# Two inputs, the data and the variable to form the splits along the x-axis\naccumulate_by <- function(dat, var) {\n  # This handles linking variables to their environment\n  var <- lazyeval::f_eval(var, dat)\n  # get the levels of the given variable using the function above\n  lvls <- getLevels(var)\n  # use lapply, tidy would use map to iterate over the levels in `lvls` and column bind the data with frame denotes by lvls[[x]]\n  dats <- lapply(seq_along(lvls), function(x) {\n   cbind(dat[var %in% lvls[seq(1, x)], ], frame = lvls[[x]])\n  })\n  # bind the rows together\n  dplyr::bind_rows(dats)\n}\n# Invoke the function on our ID variable\nINTC.tail <- INTC.tail %>% accumulate_by(~ID)\n# Create a figure of ID and close for each frame value using plotly's version of a line plot: type:scatter-mode:lines\n# The rest is standard plotly\nfig <- INTC.tail %>% plot_ly(\n  x = ~ID, \n  y = ~close, \n  frame = ~frame,\n  type = 'scatter', \n  mode = 'lines', \n  # This is short for fill to zero on the y-axis\n  fill = 'tozeroy',\n  fillcolor='rgba(73, 26, 201, 0.5)',\n  line = list(color = 'rgb(73, 26, 201)'),\n  text = ~paste(\"Date: \", date, \"<br>Close: $\", close), \n  hoverinfo = 'text'\n)\n# Add the layout; one title and two axes\n# I also mess with the margin to keep the figure from being cut off.\nfig <- fig %>% layout(\n  title =\"Intel Stock Closing Price: Last 90 Days\",\n  yaxis = list(\n    title = \"Close\", \n    range = c(0,50), \n    zeroline = F,\n    tickprefix = \"$\"\n  ),\n  xaxis = list(\n    title = \"Day\", \n    range = c(0,90), \n    zeroline = F, \n    showgrid = F\n  ),\n  margin = list(t=120) # adjust the plot margin to avoid cutting off letters\n) \n# Animate the figure with 100 frames\nfig <- fig %>% animation_opts(\n  frame = 100, # transition time 100 ms\n  transition = 0, # duration of smooth transition in ms\n  redraw = FALSE # redraw the plot at each transition?\n)\nfig <- fig %>% animation_slider(\n  currentvalue = list(\n    prefix = \"Day \"\n  )\n)\nfig\n\n\n\n\n\n\n\nAn easier plotly for these data because they are OHLC\nA link to a stand-alone document with all the data.\n\n\nCode\n# basic example of ohlc charts\n# custom colors\ni <- list(line = list(color = '#000000')) # black\nd <- list(line = list(color = '#FF0000')) # red\n# Create the figure\nfig.2 <- INTC.tail.90 %>%\n  plot_ly(x = ~date, type=\"ohlc\",\n          open = ~open, close = ~close,\n          high = ~high, low = ~low,\n          increasing = i, decreasing = d)\nfig.2"
+  },
+  {
+    "objectID": "posts/week-6/index.html#corbyn-was-a-facebook-engagement-machine",
+    "href": "posts/week-6/index.html#corbyn-was-a-facebook-engagement-machine",
+    "title": "Week 6: Presentations",
+    "section": "Corbyn was a Facebook Engagement Machine",
+    "text": "Corbyn was a Facebook Engagement Machine\nThe data are a small table.\n\n\nCode\nlibrary(ggrepel)\nlibrary(tidyverse) # call the tidyverse for %>% and ggplot\nlibrary(ggthemes) # Use the economist theme\nlibrary(ggiraph)\nlibrary(DT)\ncorbyn <- readr::read_csv(\"https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-16/corbyn.csv\")\ndatatable(corbyn)\n\n\n\n\n\n\n\n\nggiraph of barplot and lollipop chart\nI want to plot this in a barplot that is linked with a lollipop chart.\n\n\nCode\np1.Int <- ggplot(corbyn, aes(x=reorder(political_group,avg_facebook_likes), data_id=political_group, y=avg_facebook_likes, label=avg_facebook_likes, tooltip = paste0(political_group,\"<br>\",avg_facebook_likes, sep=\"\"))) + \n  geom_bar_interactive(stat=\"identity\", fill=\"#DC241f\") + \n  geom_label(fill=\"#DC241f\", color=\"#FFFFFF\", size=3.5) +\n  labs(x=\"Associate of the Labour Party\", y=\"Average Facebook Likes\") +\n  hrbrthemes::theme_ipsum_rc() +\n  coord_flip()\np2.Int <- ggplot(corbyn, aes(x=reorder(political_group,avg_facebook_likes), y=avg_facebook_likes, label=avg_facebook_likes, data_id=political_group, tooltip = paste0(political_group,\"<br>\",avg_facebook_likes, sep=\"\"))) + \n  geom_segment_interactive(aes(yend=0, xend=political_group), size=2, color=\"#DC241f\") + \n  geom_point(size=10, color=\"#DC241f\", alpha=0.8) +\n  geom_text(color=\"#FFFFFF\", size=3.5, fontface=2) +\n  labs(x=\"Associate of the Labour Party\", y=\"Average Facebook Likes\") +\n  hrbrthemes::theme_ipsum_rc() +\n  coord_flip()\nlibrary(patchwork)\nGIp1 <- p1.Int / p2.Int\ngirafe(ggobj=GIp1)"
+  },
+  {
+    "objectID": "posts/week-6/index.html#women-in-science",
+    "href": "posts/week-6/index.html#women-in-science",
+    "title": "Week 6: Presentations",
+    "section": "Women in Science",
+    "text": "Women in Science\nI had a simple example for last week. Now I want to make it nicer. The data are essentially a table. Let me show it using pivot_wider.\n\n\nCode\nwomen_research <- readr::read_csv(\"https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-16/women_research.csv\")\nwomen_research\n\n\n\n\n  \n\n\n\nCode\n# There's a spelling error I want to fix, select the rows and columns to fix and reassign the value\nwomen_research[women_research$field==\"Women inventores\",\"field\"] <- \"Women Inventors\" \n# The label for CS/Maths is too long, also\nwomen_research[women_research$field==\"Computer science, maths\",\"field\"] <- \"CS/Math\" \n# Make it wider\nWIR.Wide <- women_research %>% pivot_wider(., id_cols=country, names_from=field, values_from=percent_women)\n# A datatable\ndatatable(WIR.Wide)\n\n\n\n\n\n\n\n\nAn Interactive plot of Women in Research\n\n\nCode\nlibrary(ggiraph)\nwomen_research <- women_research %>% group_by(country) %>% mutate(Avg.Women.Percent = mean(percent_women)) %>% ungroup()\nwomen_research$PercentWomen <- as.character(round(women_research$percent_women, 3))\np1 <- ggplot(women_research) +\n aes(x = reorder(country,Avg.Women.Percent), fill = country, weight = percent_women, tooltip = PercentWomen, data_id = country) +\n geom_bar_interactive() +\n scale_fill_viridis_d(option = \"cividis\") +\n guides(fill=FALSE) +\n coord_flip() +\n theme_minimal() + \n  theme(axis.text.y = element_text(angle = 45, hjust = 1, size=6)) +\n  labs(y = \"Percent of Publications/Patents\", x = \"Country/Group\", fill=\"Country/Grouping\", title = \"Publication and Invention by Women Around the World\", subtitle = \"Percent of Publications or Patents by Women\", caption = \"source: Economist Visualization Errors\") +\n facet_wrap(~field)\nlibrary(patchwork)\nggp1.changed <- ggplot(women_research) +\n aes(x = field, y = country, fill = percent_women, , data_id = country, tooltip=percent_women) +\n geom_tile_interactive(size = 1L) +\n scale_fill_viridis_c(option=\"cividis\") +\n labs(x = \"Field or Occupation\", y = \"Country\", fill = \"% Women\") +\n theme_minimal(base_size = 10)\nggp1.changed <- ggp1.changed + theme(plot.background = element_rect(colour = \"whitesmoke\"))\ncomb1 <- p1 / ggp1.changed\ngirafe(code = print(comb1))"
+  },
+  {
+    "objectID": "posts/week-6/index.html#a-brief-crosstalk",
+    "href": "posts/week-6/index.html#a-brief-crosstalk",
+    "title": "Week 6: Presentations",
+    "section": "A Brief Crosstalk",
+    "text": "A Brief Crosstalk\nGetting this to work wasn’t hard. Getting it to style properly in interaction with the bootstrap frame was a pain. I finally just went with a blank column in two places to make sure that names don’t get cut off.\n\n\nCode\nlibrary(htmltools)\nlibrary(crosstalk)\nlibrary(DT)\nlibrary(d3scatter)\n# Load the data\nBonds <- read.csv(url(\"https://github.com/robertwwalker/DADMStuff/raw/master/BondFunds.csv\"), row.names=1)\n# Turn characters into factors\nBonds <- Bonds %>% mutate(Fees = as.factor(Fees), Risk = as.factor(Risk), Type = as.factor(Type))\n# Create shared data object\nshared_bonds <- SharedData$new(Bonds)\n# Generate the bootsrap columns as three rows, page is 12 wide\nbscols(widths=c(12,12,12),\n  # A d3 visualization\n  d3scatter(shared_bonds, ~Expense.Ratio, ~Return.2009, ~Risk),\n  # The filter checkboxes\n  list(filter_checkbox(\"Fees\", \"Fees\", shared_bonds, ~Fees, inline=TRUE),\n       filter_checkbox(\"Type\", \"Type\", shared_bonds, ~Type, inline=TRUE),\n       filter_checkbox(\"Fees\", \"Risk\", shared_bonds, ~Risk, inline=TRUE)),\n  # The datatable\n  datatable(shared_bonds))\n\n\n\n\n\n\n\n\n\n\n\nFees\n\n\n\nNo\n\n\n\nYes\n\n\n\n\n\nType\n\n\n\nIntermediate Government\n\n\n\nShort Term Corporate\n\n\n\n\n\nRisk\n\n\n\nAbove average\n\n\n\nAverage\n\n\n\nBelow average\n\n\n\n\n\n\n\n\n\n\n\n\n\nWithout the bootstrap formatting of the webpage, it works much better.\n\n\n\nimage\n\n\n\nThe Fix for the cutoff parts\nThe trick to getting this to display properly was a blank column with width=1.\n\n\nCode\nshared_bonds2 <- SharedData$new(Bonds)\n# This was adjusted from above\nbscols(widths=c(12,1,11,1,11),\n  d3scatter(shared_bonds2, ~Expense.Ratio, ~Return.2009, ~Risk),\n  \"\",  # First blank column\n  list(filter_checkbox(\"Fees\", \"Fees\", shared_bonds2, ~Fees, inline=TRUE),\n       filter_checkbox(\"Type\", \"Type\", shared_bonds2, ~Type, inline=TRUE),\n       filter_checkbox(\"Fees\", \"Risk\", shared_bonds2, ~Risk, inline=TRUE)),\n  \"\", # Second blank column\n  datatable(shared_bonds2))\n\n\n\n\n\n\n\n\n\n\n\n\nFees\n\n\n\nNo\n\n\n\nYes\n\n\n\n\n\nType\n\n\n\nIntermediate Government\n\n\n\nShort Term Corporate\n\n\n\n\n\nRisk\n\n\n\nAbove average\n\n\n\nAverage\n\n\n\nBelow average"
+  },
+  {
+    "objectID": "posts/week-1/index.html",
+    "href": "posts/week-1/index.html",
+    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
+    "section": "",
+    "text": "Updated: January 20, 2023 with a bit on shiny Meeting Date: January 9, 2023\nAttribution for cover graphic: XKCD\nFollowing the presentation of an overview of the general plan for the course and our establishment of familiarity with one another, I will focus on three major topics for today, one leading into our next meeting in two weeks time (January 23, 2023)."
+  },
+  {
+    "objectID": "posts/week-1/index.html#key-tips",
+    "href": "posts/week-1/index.html#key-tips",
+    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
+    "section": "Key Tips",
+    "text": "Key Tips\n\nThinking through .gitignore\n\nThe usethis package and usethis::git_vaccinate()\n\nPrimary data security through adding data/ to .gitignore."
+  },
+  {
+    "objectID": "posts/week-1/index.html#two-supplemental-topics",
+    "href": "posts/week-1/index.html#two-supplemental-topics",
+    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
+    "section": "Two supplemental topics:",
+    "text": "Two supplemental topics:\n\nHow to Read R Help\nUseful places for assistance: Stack Overflow, RStudio Forums"
+  },
+  {
+    "objectID": "posts/week-1/index.html#one-key-thing-thats-on-my-mind",
+    "href": "posts/week-1/index.html#one-key-thing-thats-on-my-mind",
+    "title": "Week 1: Overview, Empathy and Persuasion, and a Bit of Git",
+    "section": "One Key Thing That’s on My Mind",
+    "text": "One Key Thing That’s on My Mind\n\n\n\nwinston-chang\n\n\nThis is a very nice comparison of the two methods. The shinylive via Github pages really is a neat feature."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Communicating With Data",
+    "section": "",
+    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#instructor",
+    "href": "about.html#instructor",
+    "title": "About",
+    "section": "Instructor",
+    "text": "Instructor\nRobert W. Walker is Associate Professor of Quantitative Methods in the Atkinson Graduate School of Management at Willamette University. He earned a Ph. D. in political science from the University of Rochester in 2005 and has previously held teaching positions at Dartmouth College, Rice University, Texas A&M University, and Washington University in Saint Louis. His current research develops and applies semi-Markov processes to time-series, cross-section data in international relations and international/comparative political economy. He teaches courses in quantitative methods/applied statistics and microeconomic strategy and previously taught four iterations in the U. S. National Science Foundation funded Empirical Implications of Theoretical Models sequence at Washington University in Saint Louis. His work with Curt Signorino and Muhammet Bas was awarded the Miller Prize for the best article in Political Analysis in 2009."
   }
 ]
