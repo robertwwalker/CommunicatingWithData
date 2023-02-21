@@ -47,7 +47,7 @@ Timezone: `r Sys.timezone()`
 3. Presentations with Quarto Markdown
 
 # Slides:
-[Week 6 Slides](https://robertwwalker.github.io/CWD-Slides/week-5/index.html)
+[Week 6 Slides](https://robertwwalker.github.io/CWD-Slides/week-6/index.html)
 
 # Homework
 
