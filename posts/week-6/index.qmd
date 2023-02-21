@@ -257,6 +257,8 @@ women_research[women_research$field=="Computer science, maths","field"] <- "CS/M
 WIR.Wide <- women_research %>% pivot_wider(., id_cols=country, names_from=field, values_from=percent_women)
 # A datatable
 datatable(WIR.Wide)
+WIR.TTip <- WIR.Wide %>% mutate(text.for.tooltip = paste0(country, "<br> Health sciences: ", `Health sciences`, "<br> Physical sciences: ",`Physical sciences`, "<br> Engineering: ",Engineering,"<br> CS/Math: ", `CS/Math`, "<br> Women Inventors: ",`Women Inventors`, sep="")) %>% select(country, text.for.tooltip)
+women_research <- women_research %>% left_join(., WIR.TTip)
 ```
 
 ### An Interactive plot of Women in Research
@@ -266,18 +268,18 @@ library(ggiraph)
 women_research <- women_research %>% group_by(country) %>% mutate(Avg.Women.Percent = mean(percent_women)) %>% ungroup()
 women_research$PercentWomen <- as.character(round(women_research$percent_women, 3))
 p1 <- ggplot(women_research) +
- aes(x = reorder(country,Avg.Women.Percent), fill = country, weight = percent_women, tooltip = PercentWomen, data_id = country) +
+ aes(x = reorder(country,Avg.Women.Percent), fill = country, weight = percent_women, tooltip = text.for.tooltip, data_id = country) +
  geom_bar_interactive() +
  scale_fill_viridis_d(option = "cividis") +
  guides(fill=FALSE) +
  coord_flip() +
  theme_minimal() + 
-  theme(axis.text.y = element_text(angle = 45, hjust = 1, size=6)) +
+  theme(axis.text.y = element_text(angle = 45, hjust = 1, size=3)) +
   labs(y = "Percent of Publications/Patents", x = "Country/Group", fill="Country/Grouping", title = "Publication and Invention by Women Around the World", subtitle = "Percent of Publications or Patents by Women", caption = "source: Economist Visualization Errors") +
  facet_wrap(~field)
 library(patchwork)
 ggp1.changed <- ggplot(women_research) +
- aes(x = field, y = country, fill = percent_women, , data_id = country, tooltip=percent_women) +
+ aes(x = field, y = reorder(country,Avg.Women.Percent), fill = percent_women, , data_id = country, tooltip=text.for.tooltip) +
  geom_tile_interactive(size = 1L) +
  scale_fill_viridis_c(option="cividis") +
  labs(x = "Field or Occupation", y = "Country", fill = "% Women") +
