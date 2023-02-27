@@ -1,0 +1,133 @@
+---
+title: "Week 7: Parameterized Markdown"
+author: "Robert W. Walker"
+date: "2023-02-27"
+image: "image.png"
+tags:
+  - R
+  - plot
+  - R Markdown
+  - tidyTuesday
+  - tidyverse
+  - girafe
+bibliography: "bibliography.bib"
+nocite: |
+     @*
+format: 
+   html:
+     code-fold: true
+     code-copy: hover
+     code-block-border-left: true
+     df-print: paged
+     fig-format: retina
+     footnotes-hover: true
+     html-math-method: katex
+     toc: true
+     toc-title: Navigation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE)
+```
+
+
+Meeting Date: February 27, 2023.
+
+Last updated: `r Sys.time()` 
+
+Timezone: `r Sys.timezone()`
+
+# Class Plan 
+
+1. AMA
+2. Presentations with Quarto Markdown
+3. Writing functions
+4. Parameterized markdown
+
+# Slides:
+[Week 7 Slides](https://robertwwalker.github.io/CWD-Slides/week-7/index.html)
+
+<iframe src="https://robertwwalker.github.io/CWD-Slides/week-7/index.html" width="680" height="600" allowfullscreen></iframe>
+
+
+# Homework
+
+**The seventh assignment consists of a parameterized markdown of some form or other.**
+
+![Syllabus Module for Week 7](img/Screenshot 2023-02-26 at 10.02.56 PM.png)
+
+**Deliverables: an email containing the URL to the documents.**
+
+## Some Examples
+
+- [Oregon Election Results](https://rww-science.website/post/slavery-removal/)
+- **The Email Bit**
+
+# The Site I am Building
+
+[My github main page](https://robertwwalker.github.io)
+
+# Readings:
+
+- Quarto Documentation [if not already done]
+
+## Resources
+
+- `revealjs` tools
+
+
+### Quarto Reference on Presentations
+
+- [Three Main Types](https://quarto.org/docs/presentations/)
+- The references in the screenshot above from the syllabus
+
+## On Functions
+
+The idea of `map` is a mapping.  **A function**.
+
+From [Advanced R](https://adv-r.hadley.nz/functionals.html)
+
+:::: {.columns}
+::: {.column width="50%"}
+
+```{r}
+library(purrr)
+triple <- function(x) x * 3
+map(1:3, triple)
+```
+
+:::
+::: {.column width="50%"}
+map(LETTERS[1:6], ~paste0(.x, " is a letter.\n", sep=""))
+:::
+::::
+
+
+
+
+## Parameterized Markdown [for next time]
+
+- [Example Document from my Blog](https://rww-science.website/post/2021-08-23-parameterized-rmarkdown-is-amazing/)
+- Another of my use cases: a mail merge
+
+![Syllabus cutout](img/Screenshot 2023-02-20 at 1.18.43 PM.png)
+
+# Next:  Unifying it All Together with Shiny
+
+## Readings: 
+
+- [Mastering Shiny](https://mastering-shiny.org/) and we want chapters 1 through 4.
+
+
+## Examples of Parameterized Markdown
+
+- [The Equities](https://robertwwalker.github.io/ReportTQ/) and the associated [Github repository](https://github.com/robertwwalker/ReportTQ/)
+- An Email using `gmailr`
+
+# References
+
+```{r}
+knitr::write_bib(names(sessionInfo()$otherPkgs), file="bibliography.bib")
+```
+
+

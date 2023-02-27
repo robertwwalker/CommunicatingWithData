@@ -35,6 +35,9 @@ Timezone: `r Sys.timezone()`
 # Slides:
 [Week 5 Slides](https://robertwwalker.github.io/CWD-Slides/week-5/index.html)
 
+<iframe src="https://robertwwalker.github.io/CWD-Slides/week-5/index.html" width="680" height="600" allowfullscreen></iframe>
+
+
 # The Site I am Building
 
 [My github main page](https://robertwwalker.github.io)

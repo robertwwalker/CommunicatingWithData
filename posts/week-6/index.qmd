@@ -49,6 +49,9 @@ Timezone: `r Sys.timezone()`
 # Slides:
 [Week 6 Slides](https://robertwwalker.github.io/CWD-Slides/week-6/index.html)
 
+<iframe src="https://robertwwalker.github.io/CWD-Slides/week-6/index.html" width="680" height="600" allowfullscreen></iframe>
+
+
 # Homework
 
 **The sixth assignment consists of a presentation selling yourself.**
