@@ -1,0 +1,74 @@
+---
+title: "Week 9: Shiny"
+author: "Robert W. Walker"
+date: "2023-03-13"
+image: "image.png"
+tags:
+  - R
+  - shiny
+bibliography: "bibliography.bib"
+nocite: |
+     @*
+format: 
+   html:
+     code-fold: true
+     code-copy: hover
+     code-block-border-left: true
+     df-print: paged
+     fig-format: retina
+     footnotes-hover: true
+     html-math-method: katex
+     toc: true
+     toc-title: Navigation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE)
+```
+
+
+Meeting Date: March 13, 2023.
+
+Last updated: `r Sys.time()` 
+
+Timezone: `r Sys.timezone()`
+
+# Class Plan 
+
+1. AMA
+2. Parameterized RMarkdown/Quarto
+3. Shiny
+
+# Slides:
+[Week 9 Slides](https://robertwwalker.github.io/CWD-Slides/week-9/index.html)
+
+<iframe src="https://robertwwalker.github.io/CWD-Slides/week-9/index.html" width="680" height="600" allowfullscreen></iframe>
+
+
+# Homework
+
+**The ninth assignment is rolled into the creation of a shiny application.**
+
+![Syllabus Module for Week 9](img/Screen Shot 2023-03-13 at 10.25.31 AM.png)
+
+# Unifying it All Together with Shiny
+
+## Readings: 
+
+- [Mastering Shiny](https://mastering-shiny.org/) and we want chapters 1 through 4.
+
+
+## Examples of Parameterized Markdown
+
+- [The Equities](https://robertwwalker.github.io/ReportTQ/) and the associated [Github repository](https://github.com/robertwwalker/ReportTQ/)
+- An Email using `gmailr`
+- [Example Document from my Blog](https://rww-science.website/post/2021-08-23-parameterized-rmarkdown-is-amazing/)
+
+
+# References
+
+```{r}
+knitr::write_bib(names(sessionInfo()$otherPkgs), file="bibliography.bib")
+```
+
+

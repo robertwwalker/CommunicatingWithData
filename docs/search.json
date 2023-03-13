@@ -165,7 +165,7 @@
     "href": "posts/week-7/index.html",
     "title": "Week 7: Parameterized Markdown",
     "section": "",
-    "text": "Meeting Date: February 27, 2023.\nLast updated: 2023-02-27 13:47:21\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 27, 2023.\nLast updated: 2023-03-13 10:31:28\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-7/index.html#some-examples",
@@ -214,7 +214,7 @@
     "href": "posts/week-6/index.html",
     "title": "Week 6: Presentations",
     "section": "",
-    "text": "Meeting Date: February 20, 2023.\nLast updated: 2023-02-27 13:47:23\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 20, 2023.\nLast updated: 2023-03-13 10:31:19\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-6/index.html#resources",
@@ -284,7 +284,7 @@
     "href": "index.html",
     "title": "Communicating With Data",
     "section": "",
-    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Parameterized Markdown\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9: Shiny\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Parameterized Markdown\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#instructor",
@@ -292,5 +292,26 @@
     "title": "About",
     "section": "Instructor",
     "text": "Instructor\nRobert W. Walker is Associate Professor of Quantitative Methods in the Atkinson Graduate School of Management at Willamette University. He earned a Ph. D. in political science from the University of Rochester in 2005 and has previously held teaching positions at Dartmouth College, Rice University, Texas A&M University, and Washington University in Saint Louis. His current research develops and applies semi-Markov processes to time-series, cross-section data in international relations and international/comparative political economy. He teaches courses in quantitative methods/applied statistics and microeconomic strategy and previously taught four iterations in the U. S. National Science Foundation funded Empirical Implications of Theoretical Models sequence at Washington University in Saint Louis. His work with Curt Signorino and Muhammet Bas was awarded the Miller Prize for the best article in Political Analysis in 2009."
+  },
+  {
+    "objectID": "posts/week-9/index.html",
+    "href": "posts/week-9/index.html",
+    "title": "Week 9: Shiny",
+    "section": "",
+    "text": "Meeting Date: March 13, 2023.\nLast updated: 2023-03-13 10:31:16\nTimezone: America/Los_Angeles"
+  },
+  {
+    "objectID": "posts/week-9/index.html#readings",
+    "href": "posts/week-9/index.html#readings",
+    "title": "Week 9: Shiny",
+    "section": "Readings:",
+    "text": "Readings:\n\nMastering Shiny and we want chapters 1 through 4."
+  },
+  {
+    "objectID": "posts/week-9/index.html#examples-of-parameterized-markdown",
+    "href": "posts/week-9/index.html#examples-of-parameterized-markdown",
+    "title": "Week 9: Shiny",
+    "section": "Examples of Parameterized Markdown",
+    "text": "Examples of Parameterized Markdown\n\nThe Equities and the associated Github repository\nAn Email using gmailr\nExample Document from my Blog"
   }
 ]
