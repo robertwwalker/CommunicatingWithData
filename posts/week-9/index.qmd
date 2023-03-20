@@ -55,7 +55,7 @@ Timezone: `r Sys.timezone()`
 
 ## Readings: 
 
-- [Mastering Shiny](https://mastering-shiny.org/) and we want chapters 1 through 4.
+- [Mastering Shiny](https://mastering-shiny.org/) and we want chapters 5 through 12.
 
 
 ## Examples of Parameterized Markdown
