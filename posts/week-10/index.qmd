@@ -2,6 +2,7 @@
 title: "Week 10: Shiny Part II"
 author: "Robert W. Walker"
 date: "2023-03-20"
+code-line-numbers: true
 image: "image.png"
 tags:
   - R
@@ -60,8 +61,11 @@ Timezone: `r Sys.timezone()`
 
 A note on figures...
 
-```{r, warning=FALSE, message=FALSE}
+```{r}
 #| column: margin
+#| message: false
+#| warning: false
+#| fig-cap: "cars in the margin"
 library(ggplot2)
 ggplot(mtcars) + aes(x=mpg, y=hp) + geom_point()
 ```
