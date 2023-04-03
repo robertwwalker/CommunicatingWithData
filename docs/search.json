@@ -4,7 +4,7 @@
     "href": "posts/week-4/index.html",
     "title": "Week 4: Beautiful Tables",
     "section": "",
-    "text": "Meeting Date: February 6, 2023.\nLast updated: 2023-04-03 10:26:31\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 6, 2023.\nLast updated: 2023-04-03 11:58:58\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-4/index.html#resources",
@@ -95,7 +95,7 @@
     "href": "posts/week-5/index.html",
     "title": "Week 5: Interactive Visuals",
     "section": "",
-    "text": "Meeting Date: February 13, 2023.\nLast updated: 2023-04-03 10:26:38\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 13, 2023.\nLast updated: 2023-04-03 11:59:07\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-5/index.html#resources",
@@ -165,7 +165,7 @@
     "href": "posts/week-9/index.html",
     "title": "Week 9: Shiny",
     "section": "",
-    "text": "Meeting Date: March 13, 2023.\nLast updated: 2023-04-03 10:26:49\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: March 13, 2023.\nLast updated: 2023-04-03 11:59:18\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-9/index.html#readings",
@@ -186,7 +186,7 @@
     "href": "posts/week-7/index.html",
     "title": "Week 7: Parameterized Markdown",
     "section": "",
-    "text": "Meeting Date: February 27, 2023.\nLast updated: 2023-04-03 10:26:51\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 27, 2023.\nLast updated: 2023-04-03 11:59:20\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-7/index.html#some-examples",
@@ -235,7 +235,7 @@
     "href": "posts/week-6/index.html",
     "title": "Week 6: Presentations",
     "section": "",
-    "text": "Meeting Date: February 20, 2023.\nLast updated: 2023-04-03 10:26:52\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 20, 2023.\nLast updated: 2023-04-03 11:59:21\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-6/index.html#resources",
@@ -305,7 +305,7 @@
     "href": "posts/week-10/index.html",
     "title": "Week 10: Shiny Part II",
     "section": "",
-    "text": "Meeting Date: March 20, 2023.\nLast updated: 2023-04-03 10:26:59\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: March 20, 2023.\nLast updated: 2023-04-03 11:59:27\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-10/index.html#readings",
@@ -317,14 +317,56 @@
   {
     "objectID": "posts/week-11/index.html",
     "href": "posts/week-11/index.html",
-    "title": "Week 11: Shiny Part II",
+    "title": "Week 11: Shiny Part III",
     "section": "",
-    "text": "Meeting Date: April 3, 2023.\nLast updated: 2023-04-03 10:27:02\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: April 3, 2023.\nLast updated: 2023-04-03 11:59:30\nTimezone: America/Los_Angeles"
+  },
+  {
+    "objectID": "posts/week-11/index.html#working-through-these-chapters",
+    "href": "posts/week-11/index.html#working-through-these-chapters",
+    "title": "Week 11: Shiny Part III",
+    "section": "Working through these chapters",
+    "text": "Working through these chapters\nStart with:\nlibrary(shiny)\nlibrary(dplyr)\nui &lt;- ...\nserver &lt;- ...\nshinyApp(ui, server)\nand the steps will fill in a ui and server"
+  },
+  {
+    "objectID": "posts/week-11/index.html#chapter-12",
+    "href": "posts/week-11/index.html#chapter-12",
+    "title": "Week 11: Shiny Part III",
+    "section": "Chapter 12",
+    "text": "Chapter 12\n\ntidy evaluation\n\n\n\n\nScreen shot\n\n\n\nPassing variable names\n\nlibrary(shiny)\nlibrary(dplyr)\nui &lt;- fluidPage(\n  selectInput(\"var\", \"Sort by\", choices = names(mtcars)),\n  checkboxInput(\"desc\", \"Descending order?\"),\n  tableOutput(\"data\")\n)\nserver &lt;- function(input, output, session) {\n  sorted &lt;- reactive({\n    if (input$desc) {\n      arrange(mtcars, desc(.data[[input$var]]))\n    } else {\n      arrange(mtcars, .data[[input$var]])\n    }\n  })\n  output$data &lt;- renderTable(sorted())\n}\nshinyApp(ui, server)\n\nThe importance of req. What does it do?\n\n\n\n\nShot of help"
+  },
+  {
+    "objectID": "posts/week-11/index.html#chapter-13",
+    "href": "posts/week-11/index.html#chapter-13",
+    "title": "Week 11: Shiny Part III",
+    "section": "Chapter 13",
+    "text": "Chapter 13\nWhy reactivity?\n\n\n\nShot\n\n\n\nPlaying with Reactive\n\n\n\nSimple Example\n\n\n\n\nExcel is Reactive, That’s Why It is Popular\nIt started with VisiCalc…\n\n\n\nThe History"
+  },
+  {
+    "objectID": "posts/week-11/index.html#chapter-14",
+    "href": "posts/week-11/index.html#chapter-14",
+    "title": "Week 11: Shiny Part III",
+    "section": "Chapter 14",
+    "text": "Chapter 14\nThe reactive graph is worth playing with. Due to modern defaults in RStudio, the workflow is a bit tricky. We will have to run the app in the console.\n\n\n\nSettings\n\n\nRun it and close it to get this.\n\n\n\nreactlog"
+  },
+  {
+    "objectID": "posts/week-11/index.html#chapter-15",
+    "href": "posts/week-11/index.html#chapter-15",
+    "title": "Week 11: Shiny Part III",
+    "section": "Chapter 15",
+    "text": "Chapter 15\nReactives, single and plural\n - An oddity\n\n\n\nBehavior is a bit different\n\n\nPay very close attention to 15.3 on observe versus observeEvent. The example in 16.3.3…\nlibrary(shiny)\nreactiveConsole(TRUE)\nx &lt;- reactiveVal(1)\ny &lt;- observe({\n  x()\n  observe(print(x()))\n})\nx(2)\nx(3)\nx(2)\n\nOn Isolate\n\n\n\n\nDetails\n\n\nIsolate is not all that common because the behavior is embedded in two common tools:\n\n\n\nobserveEvent and eventReactive\n\n\n15.5 on timing\n\n\n\npart 1 - invalidateLater\n\n\n\n\n\npart 2 - Details\n\n\n15.5.2 and the importance of timing. Using on.exit"
+  },
+  {
+    "objectID": "posts/week-11/index.html#chapter-16-escaping-the-graph",
+    "href": "posts/week-11/index.html#chapter-16-escaping-the-graph",
+    "title": "Week 11: Shiny Part III",
+    "section": "Chapter 16: Escaping the Graph",
+    "text": "Chapter 16: Escaping the Graph\n\n\nVideo\nVideo\n\n\n\nThe Case Studies\n\n\nVideo\nPart 1\n\n\n\n\nVideo\nPart 2\n\n\nTwo that are related.\n\n\nVideo\nPart 3\n\n\n\n\nVideo\nPart 4\n\n\nThe timer\n\n\nVideo\nTimer\n\n\n\n\nWarnings:\nIt is quite easy to get carried away and muddle the flow.\n\n\n\nAnti-patterns"
   },
   {
     "objectID": "posts/week-11/index.html#readings",
     "href": "posts/week-11/index.html#readings",
-    "title": "Week 11: Shiny Part II",
+    "title": "Week 11: Shiny Part III",
     "section": "Readings:",
     "text": "Readings:\n\nMastering Shiny and we want chapters 13 through 16."
   },
@@ -333,7 +375,7 @@
     "href": "index.html",
     "title": "Communicating With Data",
     "section": "",
-    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11: Shiny Part II\n\n\n\n\n\n\nRobert W. Walker\n\n\nApr 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10: Shiny Part II\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9: Shiny\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Parameterized Markdown\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11: Shiny Part III\n\n\n\n\n\n\nRobert W. Walker\n\n\nApr 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10: Shiny Part II\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9: Shiny\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Parameterized Markdown\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#instructor",
