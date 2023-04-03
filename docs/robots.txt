@@ -1,1 +1,1 @@
-Sitemap: https://quartopub.com/sites/rww/communicating-with-data/sitemap.xml
+Sitemap: https://rww.quarto.pub/communicating-with-data/sitemap.xml

@@ -56,7 +56,8 @@ Timezone: `r Sys.timezone()`
 
 ## Readings: 
 
-- [Mastering Shiny](https://mastering-shiny.org/) and we want chapters 1 through 4.
+- [Last: Mastering Shiny](https://mastering-shiny.org/) and we want chapters 1 through 4.
+- [Current: Mastering Shiny](https://mastering-shiny.org/) and we want chapters 5 through 12.
 
 
 A note on figures...
