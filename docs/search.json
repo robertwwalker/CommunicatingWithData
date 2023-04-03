@@ -305,7 +305,7 @@
     "href": "posts/week-10/index.html",
     "title": "Week 10: Shiny Part II",
     "section": "",
-    "text": "Meeting Date: March 20, 2023.\nLast updated: 2023-03-31 01:32:29\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: March 20, 2023.\nLast updated: 2023-04-03 10:24:06\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-10/index.html#readings",
@@ -319,7 +319,7 @@
     "href": "index.html",
     "title": "Communicating With Data",
     "section": "",
-    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10: Shiny Part II\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9: Shiny\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Parameterized Markdown\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11: Shiny Part II\n\n\n\n\n\n\nRobert W. Walker\n\n\nApr 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10: Shiny Part II\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9: Shiny\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Parameterized Markdown\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#instructor",
@@ -327,5 +327,19 @@
     "title": "About",
     "section": "Instructor",
     "text": "Instructor\nRobert W. Walker is Associate Professor of Quantitative Methods in the Atkinson Graduate School of Management at Willamette University. He earned a Ph. D. in political science from the University of Rochester in 2005 and has previously held teaching positions at Dartmouth College, Rice University, Texas A&M University, and Washington University in Saint Louis. His current research develops and applies semi-Markov processes to time-series, cross-section data in international relations and international/comparative political economy. He teaches courses in quantitative methods/applied statistics and microeconomic strategy and previously taught four iterations in the U. S. National Science Foundation funded Empirical Implications of Theoretical Models sequence at Washington University in Saint Louis. His work with Curt Signorino and Muhammet Bas was awarded the Miller Prize for the best article in Political Analysis in 2009."
+  },
+  {
+    "objectID": "posts/week-11/index.html",
+    "href": "posts/week-11/index.html",
+    "title": "Week 11: Shiny Part II",
+    "section": "",
+    "text": "Meeting Date: April 3, 2023.\nLast updated: 2023-04-03 10:23:47\nTimezone: America/Los_Angeles"
+  },
+  {
+    "objectID": "posts/week-11/index.html#readings",
+    "href": "posts/week-11/index.html#readings",
+    "title": "Week 11: Shiny Part II",
+    "section": "Readings:",
+    "text": "Readings:\n\nMastering Shiny and we want chapters 13 through 16."
   }
 ]

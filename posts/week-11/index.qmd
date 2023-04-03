@@ -1,7 +1,7 @@
 ---
-title: "Week 10: Shiny Part II"
+title: "Week 11: Shiny Part II"
 author: "Robert W. Walker"
-date: "2023-03-20"
+date: "2023-04-03"
 code-line-numbers: true
 image: "image.png"
 tags:
@@ -28,7 +28,7 @@ knitr::opts_chunk$set(message=FALSE, warning=FALSE)
 ```
 
 
-Meeting Date: March 20, 2023.
+Meeting Date: April 3, 2023.
 
 Last updated: `r Sys.time()` 
 
@@ -38,38 +38,25 @@ Timezone: `r Sys.timezone()`
 
 1. AMA
 2. Shiny Overview
-3. Shiny, Part II
+3. Shiny, Part III
 
 # Slides:
-[Week 10 Slides](https://robertwwalker.github.io/CWD-Slides/week-10/index.html)
+[Week 11 Slides](https://robertwwalker.github.io/CWD-Slides/week-11/index.html)
 
-<iframe src="https://robertwwalker.github.io/CWD-Slides/week-10/index.html" width="680" height="600" allowfullscreen></iframe>
+<iframe src="https://robertwwalker.github.io/CWD-Slides/week-11/index.html" width="680" height="600" allowfullscreen></iframe>
 
 
 # Homework
 
 **The ninth assignment is rolled into the creation of a shiny application.**
 
-![Syllabus Module for Week 9](img/Screen Shot 2023-03-13 at 10.25.31 AM.png)
+![Syllabus Module for Week 11](img/Screen Shot 2023-03-13 at 10.25.31 AM.png)
 
 # Unifying it All Together with Shiny
 
 ## Readings: 
 
-- [Mastering Shiny](https://mastering-shiny.org/) and we want chapters 1 through 4.
-
-
-A note on figures...
-
-```{r}
-#| column: margin
-#| message: false
-#| warning: false
-#| fig-cap: "cars in the margin"
-library(ggplot2)
-ggplot(mtcars) + aes(x=mpg, y=hp) + geom_point()
-```
-
+- [Mastering Shiny](https://mastering-shiny.org/) and we want chapters 13 through 16.
 
 # References
 
