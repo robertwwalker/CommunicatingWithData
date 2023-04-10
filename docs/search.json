@@ -4,7 +4,7 @@
     "href": "posts/week-4/index.html",
     "title": "Week 4: Beautiful Tables",
     "section": "",
-    "text": "Meeting Date: February 6, 2023.\nLast updated: 2023-04-03 15:15:32\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 6, 2023.\nLast updated: 2023-04-10 13:44:16\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-4/index.html#resources",
@@ -95,7 +95,7 @@
     "href": "posts/week-5/index.html",
     "title": "Week 5: Interactive Visuals",
     "section": "",
-    "text": "Meeting Date: February 13, 2023.\nLast updated: 2023-04-03 15:15:40\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 13, 2023.\nLast updated: 2023-04-10 13:44:25\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-5/index.html#resources",
@@ -161,11 +161,53 @@
     "text": "Fossils?\n\n\nCode\nmost_expensive(\"Fossils\", price_category = sell_value, n=65) %&gt;%  tab_header(title = \"Most Expensive Items in Animal Crossing By Buy Price\") %&gt;%  cols_label(\n    name = \"Item\",\n    sell_value = \"Sale Price\",\n    buy_value = \"Buy Price\",\n    category = \"Item Type\",\n    image = \"Picture\"\n) %&gt;%   tab_spanner(\n    label = \"Prices\",\n    columns = c(buy_value, sell_value)\n)\n\n\n\n\n\n\n  \n    \n      Most Expensive Items in Animal Crossing By Buy Price\n    \n    \n    \n      Item\n      Picture\n      \n        Prices\n      \n      Item Type\n    \n    \n      Buy Price\n      Sale Price\n    \n  \n  \n    Brachio Skull\n\nNA\n6000\nFossils\n    T. Rex Skull\n\nNA\n6000\nFossils\n    Brachio Chest\n\nNA\n5500\nFossils\n    Brachio Tail\n\nNA\n5500\nFossils\n    Dimetrodon Skull\n\nNA\n5500\nFossils\n    Right Megalo Side\n\nNA\n5500\nFossils\n    T. Rex Torso\n\nNA\n5500\nFossils\n    Tricera Skull\n\nNA\n5500\nFossils\n    Brachio Pelvis\n\nNA\n5000\nFossils\n    Dimetrodon Torso\n\nNA\n5000\nFossils\n    Diplo Skull\n\nNA\n5000\nFossils\n    Diplo Tail\n\nNA\n5000\nFossils\n    Left Quetzal Wing\n\nNA\n5000\nFossils\n    Right Quetzal Wing\n\nNA\n5000\nFossils\n    Stego Skull\n\nNA\n5000\nFossils\n    T. Rex Tail\n\nNA\n5000\nFossils\n    Tricera Torso\n\nNA\n5000\nFossils\n    Diplo Neck\n\nNA\n4500\nFossils\n    Diplo Pelvis\n\nNA\n4500\nFossils\n    Left Ptera Wing\n\nNA\n4500\nFossils\n    Megacero Skull\n\nNA\n4500\nFossils\n    Plesio Body\n\nNA\n4500\nFossils\n    Plesio Tail\n\nNA\n4500\nFossils\n    Quetzal Torso\n\nNA\n4500\nFossils\n    Right Ptera Wing\n\nNA\n4500\nFossils\n    Stego Torso\n\nNA\n4500\nFossils\n    Tricera Tail\n\nNA\n4500\nFossils\n    Archelon Skull\n\nNA\n4000\nFossils\n    Diplo Chest\n\nNA\n4000\nFossils\n    Diplo Tail Tip\n\nNA\n4000\nFossils\n    Iguanodon Skull\n\nNA\n4000\nFossils\n    Left Megalo Side\n\nNA\n4000\nFossils\n    Pachy Skull\n\nNA\n4000\nFossils\n    Plesio Skull\n\nNA\n4000\nFossils\n    Ptera Body\n\nNA\n4000\nFossils\n    Spino Skull\n\nNA\n4000\nFossils\n    Stego Tail\n\nNA\n4000\nFossils\n    Ankylo Skull\n\nNA\n3500\nFossils\n    Archelon Tail\n\nNA\n3500\nFossils\n    Dunkleosteus\n\nNA\n3500\nFossils\n    Iguanodon Torso\n\nNA\n3500\nFossils\n    Megacero Torso\n\nNA\n3500\nFossils\n    Pachy Tail\n\nNA\n3500\nFossils\n    Parasaur Skull\n\nNA\n3500\nFossils\n    Ankylo Torso\n\nNA\n3000\nFossils\n    Deinony Torso\n\nNA\n3000\nFossils\n    Iguanodon Tail\n\nNA\n3000\nFossils\n    Mammoth Skull\n\nNA\n3000\nFossils\n    Megacero Tail\n\nNA\n3000\nFossils\n    Parasaur Torso\n\nNA\n3000\nFossils\n    Spino Torso\n\nNA\n3000\nFossils\n    Ankylo Tail\n\nNA\n2500\nFossils\n    Deinony Tail\n\nNA\n2500\nFossils\n    Mammoth Torso\n\nNA\n2500\nFossils\n    Ophthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Skull\n\nNA\n2500\nFossils\n    Opthalmo Torso\n\nNA\n2500\nFossils\n    Parasaur Tail\n\nNA\n2500\nFossils\n    Sabertooth Skull\n\nNA\n2500\nFossils\n    Spino Tail\n\nNA\n2500\nFossils\n    Acanthostega\n\nNA\n2000\nFossils\n    Anomalocaris\n\nNA\n2000\nFossils\n    Eusthenopteron\n\nNA\n2000\nFossils\n    Ophthalmo Torso\n\nNA\n2000\nFossils\n    Sabertooth Tail\n\nNA\n2000\nFossils"
   },
   {
+    "objectID": "posts/week-12/index.html",
+    "href": "posts/week-12/index.html",
+    "title": "Week 12: Shiny Part IV",
+    "section": "",
+    "text": "Meeting Date: April 10, 2023.\nLast updated: 2023-04-10 13:44:36\nTimezone: America/Los_Angeles"
+  },
+  {
+    "objectID": "posts/week-12/index.html#working-through-these-chapters",
+    "href": "posts/week-12/index.html#working-through-these-chapters",
+    "title": "Week 12: Shiny Part IV",
+    "section": "Working through these chapters",
+    "text": "Working through these chapters\nStart with:\nlibrary(shiny)\nlibrary(dplyr)\nui &lt;- ...\nserver &lt;- ...\nshinyApp(ui, server)\nand the steps will fill in a ui and server"
+  },
+  {
+    "objectID": "posts/week-12/index.html#chapter-12",
+    "href": "posts/week-12/index.html#chapter-12",
+    "title": "Week 12: Shiny Part IV",
+    "section": "Chapter 12",
+    "text": "Chapter 12\n\ntidy evaluation\n\n\n\n\nScreen shot\n\n\n\nPassing variable names\n\nlibrary(shiny)\nlibrary(dplyr)\nui &lt;- fluidPage(\n  selectInput(\"var\", \"Sort by\", choices = names(mtcars)),\n  checkboxInput(\"desc\", \"Descending order?\"),\n  tableOutput(\"data\")\n)\nserver &lt;- function(input, output, session) {\n  sorted &lt;- reactive({\n    if (input$desc) {\n      arrange(mtcars, desc(.data[[input$var]]))\n    } else {\n      arrange(mtcars, .data[[input$var]])\n    }\n  })\n  output$data &lt;- renderTable(sorted())\n}\nshinyApp(ui, server)"
+  },
+  {
+    "objectID": "posts/week-12/index.html#chapter-16-escaping-the-graph",
+    "href": "posts/week-12/index.html#chapter-16-escaping-the-graph",
+    "title": "Week 12: Shiny Part IV",
+    "section": "Chapter 16: Escaping the Graph",
+    "text": "Chapter 16: Escaping the Graph\n\n\nVideo\nVideo\n\n\n\nThe Case Studies\n\n\nVideo\nPart 1\n\n\n\n\nVideo\nPart 2\n\n\nTwo that are related.\n\n\nVideo\nPart 3\n\n\n\n\nVideo\nPart 4\n\n\nThe timer\n\n\nVideo\nTimer\n\n\n\n\nWarnings:\nIt is quite easy to get carried away and muddle the flow.\n\n\n\nAnti-patterns"
+  },
+  {
+    "objectID": "posts/week-12/index.html#chapter-17-on-general-guidelines",
+    "href": "posts/week-12/index.html#chapter-17-on-general-guidelines",
+    "title": "Week 12: Shiny Part IV",
+    "section": "Chapter 17 on General Guidelines",
+    "text": "Chapter 17 on General Guidelines\nIn some ways, there is a conflict between this week and next. It goes back to something from the first two weeks: empathy and/or be a ticket. There is tension between planning and building and most people that I know that do this regularly have learned, through pain mostly, that we often want to build more quickly than we should. Plan and prototype.\nAlong those lines, the role of functions and modules should often not be something in the scale up phase but rather in the initial build phase because we know what repetitive tasks/functions they will serve.\nOn functions and modules, the latter is basically a set of linked functions. Inside either UI or server, we can use functions, modules tend to combine linked functions on the UI and server side.\nPackaging shiny applications is probably a key to putting them into wide production because it makes them more accessible and should guarantee that they are well documented. Remember, being able to figure out what you did six months ago gets harder and harder. Documentation is a gift to both users and your future self.\nThe same goes for testing. Our users will be frustrated when tools fail on them. Testing is a service to them and our future selves because debugging something in advance keeps us from having to reconstruct what we knew at the time before being able to fix whatever bugs we witness.\nIn many enterprise applications, security is paramount. That comes in two basic forms: data security and execution security. In docker containers, if that is our mode of deployment, there is a thread on the course discord highlighting approaches to this.\nFinally, performance.\n\nBenchmark\nProfile\nOptimise\n\nWith shiny apps, there are two parts to this. There are the standard tools for code optimization [pipes for example]. There is another layer in the UI server interactions. The chapter highlights many useful pieces of information; Joe Chang’s talk is awesome.\nAsynchronous programming is also of considerable use because R is single-threaded. promises takes us a long way"
+  },
+  {
+    "objectID": "posts/week-12/index.html#readings",
+    "href": "posts/week-12/index.html#readings",
+    "title": "Week 12: Shiny Part IV",
+    "section": "Readings:",
+    "text": "Readings:\n\nMastering Shiny and we want chapters 17 through 23.\n\nFor next time: look at Engineering-Shiny\n\n\n\nTarget audience"
+  },
+  {
     "objectID": "posts/week-9/index.html",
     "href": "posts/week-9/index.html",
     "title": "Week 9: Shiny",
     "section": "",
-    "text": "Meeting Date: March 13, 2023.\nLast updated: 2023-04-03 15:15:53\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: March 13, 2023.\nLast updated: 2023-04-10 13:44:39\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-9/index.html#readings",
@@ -186,7 +228,7 @@
     "href": "posts/week-7/index.html",
     "title": "Week 7: Parameterized Markdown",
     "section": "",
-    "text": "Meeting Date: February 27, 2023.\nLast updated: 2023-04-03 15:15:55\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 27, 2023.\nLast updated: 2023-04-10 13:44:40\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-7/index.html#some-examples",
@@ -235,7 +277,7 @@
     "href": "posts/week-6/index.html",
     "title": "Week 6: Presentations",
     "section": "",
-    "text": "Meeting Date: February 20, 2023.\nLast updated: 2023-04-03 15:15:56\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: February 20, 2023.\nLast updated: 2023-04-10 13:44:41\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-6/index.html#resources",
@@ -305,7 +347,7 @@
     "href": "posts/week-10/index.html",
     "title": "Week 10: Shiny Part II",
     "section": "",
-    "text": "Meeting Date: March 20, 2023.\nLast updated: 2023-04-03 15:16:02\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: March 20, 2023.\nLast updated: 2023-04-10 13:44:47\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-10/index.html#readings",
@@ -319,7 +361,7 @@
     "href": "posts/week-11/index.html",
     "title": "Week 11: Shiny Part III",
     "section": "",
-    "text": "Meeting Date: April 3, 2023.\nLast updated: 2023-04-03 15:16:05\nTimezone: America/Los_Angeles"
+    "text": "Meeting Date: April 3, 2023.\nLast updated: 2023-04-10 13:44:50\nTimezone: America/Los_Angeles"
   },
   {
     "objectID": "posts/week-11/index.html#working-through-these-chapters",
@@ -375,7 +417,7 @@
     "href": "index.html",
     "title": "Communicating With Data",
     "section": "",
-    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11: Shiny Part III\n\n\n\n\n\n\nRobert W. Walker\n\n\nApr 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10: Shiny Part II\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9: Shiny\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Parameterized Markdown\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the web presence for Communicating with Data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12: Shiny Part IV\n\n\n\n\n\n\nRobert W. Walker\n\n\nApr 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11: Shiny Part III\n\n\n\n\n\n\nRobert W. Walker\n\n\nApr 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10: Shiny Part II\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9: Shiny\n\n\n\n\n\n\nRobert W. Walker\n\n\nMar 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7: Parameterized Markdown\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: Presentations\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: Interactive Visuals\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4: Beautiful Tables\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3: Building a Portfolio, Part II\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2: Building a Portfolio, Part I\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1: Overview, Empathy and Persuasion, and a Bit of Git\n\n\n\nR\n\n\n\n\n\n\n\nRobert W. Walker\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#instructor",

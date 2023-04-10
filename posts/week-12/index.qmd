@@ -1,0 +1,164 @@
+---
+title: "Week 12: Shiny Part IV"
+author: "Robert W. Walker"
+date: "2023-04-10"
+code-line-numbers: true
+image: "image.png"
+tags:
+  - R
+  - shiny
+bibliography: "bibliography.bib"
+nocite: |
+     @*
+format: 
+   html:
+     code-fold: true
+     code-copy: hover
+     code-block-border-left: true
+     df-print: paged
+     fig-format: retina
+     footnotes-hover: true
+     html-math-method: katex
+     toc: true
+     toc-title: Navigation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE)
+```
+
+
+Meeting Date: April 10, 2023.
+
+Last updated: `r Sys.time()` 
+
+Timezone: `r Sys.timezone()`
+
+# Class Plan 
+
+1. AMA
+2. Shiny, Part III Completion
+3. Shiny, Part IV
+
+# Slides:
+[Week 12 Slides](https://robertwwalker.github.io/CWD-Slides/week-12/index.html)
+
+<iframe src="https://robertwwalker.github.io/CWD-Slides/week-12/index.html" width="680" height="600" allowfullscreen></iframe>
+
+
+# Homework
+
+**The ninth assignment is rolled into the creation of a shiny application.**
+
+![Syllabus Module for Week 11](../week-11/img/Screen Shot 2023-03-13 at 10.25.31 AM.png)
+
+# Unifying it All Together with Shiny
+
+## Working through these chapters
+
+Start with:
+
+```
+library(shiny)
+library(dplyr)
+ui <- ...
+server <- ...
+shinyApp(ui, server)
+```
+
+and the steps will fill in a `ui` and `server`
+
+## Chapter 12
+
+- `tidy` evaluation
+
+![Screen shot](../week-11/img/Screenshot 2023-04-03 at 10.42.45 AM.png)
+
+- Passing variable names
+
+```
+library(shiny)
+library(dplyr)
+ui <- fluidPage(
+  selectInput("var", "Sort by", choices = names(mtcars)),
+  checkboxInput("desc", "Descending order?"),
+  tableOutput("data")
+)
+server <- function(input, output, session) {
+  sorted <- reactive({
+    if (input$desc) {
+      arrange(mtcars, desc(.data[[input$var]]))
+    } else {
+      arrange(mtcars, .data[[input$var]])
+    }
+  })
+  output$data <- renderTable(sorted())
+}
+shinyApp(ui, server)
+```
+
+## Chapter 16: Escaping the Graph
+
+![Video](../week-11/img/Screen Recording 2023-04-03 at 11.39.38 AM.mov)
+
+### The Case Studies
+
+![Part 1](../week-11/img/Screen Recording 2023-04-03 at 11.43.00 AM.mov)
+
+![Part 2](../week-11/img/Screen Recording 2023-04-03 at 11.44.18 AM.mov)
+
+Two that are related.
+
+![Part 3](../week-11/img/Screen Recording 2023-04-03 at 11.45.32 AM.mov)
+
+![Part 4](../week-11/img/Screen Recording 2023-04-03 at 11.46.44 AM.mov)
+
+The timer
+
+![Timer](../week-11/img/Screen Recording 2023-04-03 at 11.49.42 AM.mov)
+
+### Warnings:  
+
+It is quite easy to get carried away and muddle the flow.
+
+![Anti-patterns](../week-11/img/Screenshot 2023-04-03 at 11.52.09 AM.png)
+
+## Chapter 17 on General Guidelines
+
+In some ways, there is a conflict between this week and next.  It goes back to something from the first two weeks: empathy and/or `be a ticket`.  There is tension between planning and building and most people that I know that do this regularly have learned, through pain mostly, that we often want to build more quickly than we should.  Plan and prototype.
+
+Along those lines, the role of functions and modules should often not be something in the scale up phase but rather in the initial build phase because we know what repetitive tasks/functions they will serve.
+
+On functions and modules, the latter is basically a set of linked functions.  Inside either UI or server, we can use functions, modules tend to combine linked functions on the UI and server side.
+
+Packaging shiny applications is probably a key to putting them into wide production because it makes them more accessible and *should* guarantee that they are well documented.  Remember, being able to figure out what you did six months ago gets harder and harder.  Documentation is a gift to both users and your future self.
+
+The same goes for testing.  Our users will be frustrated when tools fail on them.  Testing is a service to them and our future selves because debugging something in advance keeps us from having to reconstruct what we knew at the time before being able to fix whatever bugs we witness.
+
+In many enterprise applications, security is paramount.  That comes in two basic forms: data security and execution security.  In docker containers, if that is our mode of deployment, there is a thread on the course discord highlighting approaches to this.
+
+Finally, performance.
+
+- Benchmark
+- Profile
+- Optimise
+
+With shiny apps, there are two parts to this.  There are the standard tools for code optimization [pipes for example].  There is another layer in the UI server interactions.  The chapter highlights many useful pieces of information; [Joe Chang's talk is awesome](https://rstudio.com/resources/rstudioconf-2019/shiny-in-production-principles-practices-and-tools/).
+
+Asynchronous programming is also of considerable use because R is single-threaded.  `promises` [takes us a long way](https://rstudio.github.io/promises/)
+
+## Readings:
+
+- [Mastering Shiny](https://mastering-shiny.org/) and we want chapters 17 through 23.
+
+For next time: look at [Engineering-Shiny](https://engineering-shiny.org/)
+
+![Target audience](img/Screenshot 2023-04-10 at 1.20.21 PM.png)
+
+# References
+
+```{r}
+knitr::write_bib(names(sessionInfo()$otherPkgs), file="bibliography.bib")
+```
+
+
